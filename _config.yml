@@ -1,0 +1,31 @@
+title: 'Expenses: Spending Tracker'
+author: Hiroki Nagasawa
+username: pixyzehn
+description: Expenses has been crafted to keep track of your spending effortlessly, with useful features in a simple, intuitive interface.
+keywords: Expenses,Expenses Tracker,Spend,Spending,Spending Tracker,Budget,Finance,Money,Travel Spend,Bill
+url: https://getexpenses.app
+timezone: Asia/Tokyo
+
+links:
+  twitter: https://twitter.com/expensesapp
+  developer: https://pixyzehn.com
+  jekyll: https://jekyllrb.com
+
+sass:
+  style: compressed
+strict_front_matter: true
+
+plugins:
+- jekyll-seo-tag
+- jekyll-sitemap
+- jemoji
+
+# https://jekyllrb.com/docs/configuration/default/
+exclude:
+- .github
+- .gitignore
+- .jekyll-cache
+- .sass-cache
+- CNAME
+- LICENSE
+- README.md

@@ -1,0 +1,100 @@
+/**
+ * Nav header
+ */
+.nav-header {
+  border-top: 5px solid $primary-content-color;
+  // Positioning context for the mobile navigation icon
+  position: relative;
+  background: $background-color;
+}
+
+.navbar-brand {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 56px;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  text-transform: uppercase;
+  color: $text-color;
+
+  &,
+  &:visited,
+  &:active {
+    color: $text-color;
+  }
+
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.navbar {
+  line-height: 56px;
+
+  .nav-link {
+    font-size: 14px;
+    color: $secondary-content-color !important;
+    line-height: $base-line-height;
+
+    &:hover {
+      color: $secondary-content-color !important;
+      text-decoration: underline;
+    }
+  }
+
+  .navbar-toggler {
+    padding: 0.2rem;
+    font-size: 1rem;
+  }
+}
+
+/**
+ * Site footer
+ */
+.site-footer {
+  background: $background-color;
+  a {
+    color: $primary-content-color;
+  }
+}
+
+@include media-query($on-palm) {
+  .footer-col {
+    float: none;
+    width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+    width: calc(100% - (#{$spacing-unit} / 2));
+  }
+}
+
+/**
+ * Horizontal Rule
+ */
+hr {
+  border-top: 1px solid $border-color;
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+/**
+ * Apps main
+ */
+.apps-main {
+  p {
+    color: $secondary-content-color;
+    b {
+      color: $primary-content-color;
+    }
+  }
+}
+
+/**
+ * Apps features
+ */
+.apps-features {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit;
+  p, ul {
+    color: $secondary-content-color;
+  }
+}
