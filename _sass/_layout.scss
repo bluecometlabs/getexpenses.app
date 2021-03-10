@@ -80,11 +80,8 @@ hr {
  * Apps main
  */
 .apps-main {
-  p {
-    color: $secondary-content-color;
-    b {
-      color: $primary-content-color;
-    }
+  b {
+    color: $primary-content-color;
   }
 }
 
@@ -94,7 +91,4 @@ hr {
 .apps-features {
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit;
-  p, ul {
-    color: $secondary-content-color;
-  }
 }
