@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Terms and Conditions
-permalink: /terms
+permalink: /terms/
 ---
 
 {% include terms.html %}
