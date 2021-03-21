@@ -5,6 +5,7 @@ description: Expenses has been crafted to keep track of your spending effortless
 keywords: Expenses,Expenses Tracker,Spend,Spending,Spending Tracker,Budget,Finance,Money,Travel Spend,Bill
 url: https://getexpenses.app
 timezone: Asia/Tokyo
+image: /assets/expenses.png
 
 links:
   twitter: https://twitter.com/expensesapp
@@ -14,6 +15,10 @@ links:
 sass:
   style: compressed
 strict_front_matter: true
+
+twitter:
+  username: expensesapp
+  card: summary_large_image
 
 plugins:
 - jekyll-seo-tag
