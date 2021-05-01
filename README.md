@@ -1,5 +1,4 @@
-# [getexpenses.app](https://getexpenses.app)
-![Jekyll site CI](https://github.com/pixyzehn/getexpenses.app/workflows/jekyll%20build/badge.svg)
+# [getexpenses.app](https://getexpenses.app) [![jekyll build](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml/badge.svg)](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml)
 
 ## Requirements
 
