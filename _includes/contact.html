@@ -14,6 +14,7 @@
         <li><a href="#universal-purchase">Universal Purchase</a></li>
         <li><a href="#icloud-sync-is-not-working">iCloud Sync is not working between iOS and Mac</a></li>
         <li><a href="#disabled-icloud-sync-option">Disabled iCloud Sync option</a></li>
+        <li><a href="#how-to-delete-category">How to delete a category</a></li>
         <li><a href="#missing-print-function-on-macos-version">Missing Print function on macOS version</a></li>
         <li><a href="#error-when-trying-to-restore-purchase">Get an error when trying to restore a purchase</a></li>
         <li><a href="#request-refund">Request a refund</a></li>
@@ -81,6 +82,23 @@
 
     <h3 id="missing-print-function-on-macos-version">Missing Print function on macOS version</h3>
     <p>We hide Print function in Expenses for Mac on purpose. The reason is that we can't use the API called <a href="https://developer.apple.com/documentation/uikit/uimarkuptextprintformatter">UIMarkupTextPrintFormatter</a> until we drop macOS Catalina support. Until that time, you could use Print function on iOS/iPadOS or export it as CSV on macOS, and then print it via other apps, such as Numbers.</p>
+
+    <h3 id="how-to-delete-category">How to delete a category</h3>
+    <p>Expenses app allows you to delete any category including the default categories. When deleting a category, expenses/income using the category also will be deleted. So, make sure that you change a category if you still want to keep them.</p>
+    <p>On iOS,</p>
+    <ol>
+        <li>Go to Settings>Categories.</li>
+        <li>Tap the cateogry you'd like to delete.</li>
+        <li>Select the delete button at the bottom.</li>
+        <li>Tap the delete action after you check the confirmation.</li>
+    </ol>
+    <p>On macOS,</p>
+    <ol>
+        <li>Go to System Preferences>Categories.</li>
+        <li>Tap the cateogry you'd like to delete.</li>
+        <li>Select the delete button at the bottom.</li>
+        <li>Tap the delete action after you check the confirmation.</li>
+    </ol>
 
     <h3 id="error-when-trying-to-restore-purchase">Get an error when trying to restore a purchase</h3>
     <p>Please check the following list from <a href="https://support.apple.com/en-us/HT204530">Apple's article</a>.</p>
