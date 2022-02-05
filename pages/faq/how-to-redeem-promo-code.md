@@ -12,7 +12,7 @@ permalink: /faq/how-to-redeem-promo-code
     <li>Open the App Store</li>
     <li>Tap on your profile</li>
     <li>Tap on "Redeem Gift Card or Code"</li>
-    <li>Tap to enter the code</li>
+    <li>Enter the code manually or use Camera</li>
 </ol>
 
 <p>macOS:</p>
