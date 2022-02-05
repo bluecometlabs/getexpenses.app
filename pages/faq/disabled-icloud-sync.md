@@ -7,18 +7,16 @@ permalink: /faq/disabled-icloud-sync
 <h1>Disabled iCloud Sync</h1>
 <p>Expenses app relies on iCloud to sync data. If the iCloud Sync option in Settings>Sync is disabled in the app, it means the app can't access iCloud on your device. To enable it, please check the following.</p>
 
-<p>On iOS,</p>
+<p>iOS:</p>
 <ol>
-    <li>Go to Settings>Apple ID>iCloud</li>
-    <li>Check the checkbox for Expenses app</li>
+    <li>On your device, go to "Settings>Apple ID>iCloud" and make sure that you check "Expenses"</li>
     <li>Relaunch the app to properly reflect the change</li>
     <li>See the iCloud Sync is now enabled</li>
 </ol>
 
-<p>On macOS,</p>
+<p>macOS:</p>
 <ol>
-    <li>Go to System Preferences>Apple ID>iCloud Drive(Options...)</li>
-    <li>Check the checkbox for Expenses.app in Documents</li>
+    <li>On your laptop, go to "System Preferences>Apple ID>iCloud Drive (Documents)" and make sure that you check "Expenses"</li>
     <li>Relaunch the app to properly reflect the change</li>
     <li>See the iCloud Sync is now enabled</li>
 </ol>
