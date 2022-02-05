@@ -5,7 +5,7 @@ permalink: /faq/disabled-icloud-sync
 ---
 
 <h1>Disabled iCloud Sync</h1>
-<p>Expenses app relies on iCloud to sync data. If the iCloud Sync option in the app is disabled in the app, it means the app can't access iCloud on your device. To enable it, please check the following.</p>
+<p>Expenses app relies on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access iCloud on your device. To enable it, please check the following.</p>
 
 <p>iOS:</p>
 <ol>
