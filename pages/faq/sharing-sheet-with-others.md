@@ -9,18 +9,18 @@ permalink: /faq/sharing-sheet-with-others
 
 <p>iOS:</p>
 <ul>
-    <li>On your device, you have enough storage space in iCloud</li>
-    <li>On your device, go to "Settings>Apple ID>iCloud" and make sure that you check "Expenses"</li>
-    <li>On Expenses, go to "Settings>Sync" and check iCloud Sync is turned on</li>
-    <li>On Expenses, try force push all data to iCloud in Sync, and then try force fetch all data from iCloud</li>
+    <li>You have enough storage space in iCloud on your device</li>
+    <li>Go to "Settings (System)>Apple ID>iCloud" and make sure that you check "Expenses"</li>
+    <li>Go to "Settings>Sync" on Expenses and check iCloud Sync is turned on</li>
+    <li>Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud</li>
 </ul>
 
 <p>macOS:</p>
 <ul>
-    <li>On your laptop, you have enough storage space in iCloud</li>
-    <li>On your laptop, go to "System Preferences>Apple ID>iCloud Drive (Documents)" and make sure that you check "Expenses"</li>
-    <li>On Expenses, go to "Preferences...>Sync" and check iCloud Sync is turned on</li>
-    <li>On Expenses, try force push all data to iCloud in Sync, and then try force fetch all data from iCloud</li>
+    <li>You have enough storage space in iCloud</li>
+    <li>Go to "System Preferences>Apple ID>iCloud Drive (Documents)" and make sure that you check "Expenses"</li>
+    <li>Go to "Preferences...>Sync" on Expenses and check iCloud Sync is turned on</li>
+    <li>Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud</li>
 </ul>
 
 {% include faq_footer.html %}

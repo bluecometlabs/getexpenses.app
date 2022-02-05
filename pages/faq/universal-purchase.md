@@ -9,14 +9,14 @@ permalink: /faq/universal-purchase
 
 <p>iOS:</p>
 <ol>
-    <li>Go to "Settings>Unlock the App" in Expenses</li>
+    <li>Go to "Settings>Unlock the App" on Expenses</li>
     <li>Tap "Restore Purchase"</li>
     <li>Confirm that you see "Restore Purchase was successful" message</li>
 </ol>
 
 <p>macOS:</p>
 <ol>
-    <li>Go to "Preference...>Unlock the App" in Expenses</li>
+    <li>Go to "Preference...>Unlock the App" on Expenses</li>
     <li>Tap "Restore Purchase"</li>
     <li>Confirm that you see "Restore Purchase was successful" message</li>
 </ol>

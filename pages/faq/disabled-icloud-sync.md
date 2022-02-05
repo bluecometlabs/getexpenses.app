@@ -9,14 +9,14 @@ permalink: /faq/disabled-icloud-sync
 
 <p>iOS:</p>
 <ol>
-    <li>On your device, go to "Settings>Apple ID>iCloud" and make sure that you check "Expenses"</li>
+    <li>Go to "Settings (System)>Apple ID>iCloud" and make sure that you check "Expenses"</li>
     <li>Relaunch the app to properly reflect the change</li>
     <li>See the iCloud Sync is now enabled</li>
 </ol>
 
 <p>macOS:</p>
 <ol>
-    <li>On your laptop, go to "System Preferences>Apple ID>iCloud Drive (Documents)" and make sure that you check "Expenses"</li>
+    <li>Go to "System Preferences>Apple ID>iCloud Drive (Documents)" and make sure that you check "Expenses"</li>
     <li>Relaunch the app to properly reflect the change</li>
     <li>See the iCloud Sync is now enabled</li>
 </ol>
