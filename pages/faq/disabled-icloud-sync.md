@@ -6,7 +6,7 @@ permalink: /faq/disabled-icloud-sync
 
 # Disabled iCloud Sync
 
-We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access your iCloud account on your device for some reason (Technically, we're checking if your iCloud account is available via [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus) from CloudKit). To enable it, please check the following.
+We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access your iCloud account on your device for some reason (Technically, we're checking if your iCloud account is available via [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus)). To enable it, please check the following.
 
 **iOS/iPadOS**
 
