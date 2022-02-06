@@ -10,14 +10,13 @@ Our In-App purchase to unlock the full features is a universal purchase, meaning
 
 **iOS/iPadOS**
 
-1. Go to `Settings` → `Unlock the App` on Expenses
+1. Go to `Settings (Expenses)` → `Unlock the App`
 2. Tap `Restore Purchase`
 3. Confirm that you see `Restore Purchase was successful` message
 
-
 **macOS**
 
-1. Go to `Preference...` → `Unlock the App` on Expenses
+1. Go to `Preference... (Expenses)` → `Unlock the App`
 2. Tap `Restore Purchase`
 3. Confirm that you see `Restore Purchase was successful` message
 
