@@ -6,7 +6,7 @@ permalink: /faq/icloud-sync-is-not-working
 
 # iCloud Sync is not working between iOS and Mac
 
-First, please make sure that you use the same iCloud account both on iOS/iPadOS and macOS, and have enough iCloud storage on both platforms. If it still doesn't work, please do the following troubleshooting.
+First, please make sure that you use the same iCloud account on both iOS/iPadOS and macOS, and have enough iCloud storage on both. If it still doesn't work, please do the following troubleshooting.
 
 **iOS/iPadOS**
 
