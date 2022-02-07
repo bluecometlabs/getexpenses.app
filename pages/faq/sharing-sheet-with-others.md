@@ -6,7 +6,7 @@ permalink: /faq/sharing-sheet-with-others
 
 # Sharing a sheet with others
 
-To share a sheet with others, people you added also need to unlock the full features because our Sharing uses iCloud Sync. If the people still can't see anything you shared, please check the following on both sides (you and people you added).
+To share a sheet with others, people you added also need to unlock the full features because our sharing feature uses iCloud Sync. If the people still can't see anything you shared, please check the following on both sides (you and people you added).
 
 **iOS/iPadOS**
 
