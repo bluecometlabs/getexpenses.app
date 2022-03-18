@@ -22,7 +22,6 @@ twitter:
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
-- jemoji
 
 # https://jekyllrb.com/docs/configuration/default/
 exclude:
