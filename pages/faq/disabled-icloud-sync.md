@@ -20,6 +20,9 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 2. Relaunch the app to properly reflect the change
 3. See the iCloud Sync is now enabled
 
-If it still doesn't work, please check your iCloud account to see if there is any error or warning. Also, parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials so please check those settings just in case.
+If it still doesn't work, please check the following:
+- [Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242) and sign in to iCloud again
+- See if there is any error or warning on your iCloud account
+- Check if parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials
 
 {% include faq_footer.html %}
