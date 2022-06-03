@@ -22,4 +22,6 @@ First, please make sure that you use the same iCloud account on both iOS/iPadOS 
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
 
+Sometimes, there is something wrong with the Apple System. Please also check [the status page](https://www.apple.com/support/systemstatus/) just in case.
+
 {% include faq_footer.html %}
