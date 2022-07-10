@@ -42,6 +42,7 @@ func updateEurofxrefFile(referenceRatesRef: ReferenceRatesRef) {
         var result = ""
         let sortedRates = referenceRatesRef.rates
             .filter { $0.key != base }
+            .filter { Locale.isoCurrencyCodes.contains($0.key)  }
             .sorted { $0.key < $1.key }
         for (index, rate) in sortedRates.enumerated() {
             // E.g., <Cube currency="USD" rate="1.0163"/>
@@ -68,7 +69,7 @@ func updateEurofxrefFile(referenceRatesRef: ReferenceRatesRef) {
     </gesmes:Envelope>
     """.data(using: .utf8)!
 
-    let filePath = FileManager.default.currentDirectoryPath + "/eurofxref/eurofxref-daily.xml"
+    let filePath = FileManager.default.currentDirectoryPath + "/eurofxref/eurofxref.xml"
 
     if FileManager.default.createFile(atPath: filePath, contents: contents, attributes: nil) {
         print("File updated successfully.")
