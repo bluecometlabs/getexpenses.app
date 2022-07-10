@@ -26,7 +26,6 @@
 <Cube currency="BOB" rate="6.970908"/>
 <Cube currency="BRL" rate="5.352767"/>
 <Cube currency="BSD" rate="1.013988"/>
-<Cube currency="BTC" rate="4.7847447e-05"/>
 <Cube currency="BTN" rate="80.350706"/>
 <Cube currency="BWP" rate="12.851121"/>
 <Cube currency="BYN" rate="2.606427"/>
@@ -55,7 +54,6 @@
 <Cube currency="FKP" rate="0.836362"/>
 <Cube currency="GBP" rate="0.846742"/>
 <Cube currency="GEL" rate="2.995049"/>
-<Cube currency="GGP" rate="0.836362"/>
 <Cube currency="GHS" rate="8.162312"/>
 <Cube currency="GIP" rate="0.836362"/>
 <Cube currency="GMD" rate="55.095866"/>
@@ -69,12 +67,10 @@
 <Cube currency="HUF" rate="405.118279"/>
 <Cube currency="IDR" rate="15255.353825"/>
 <Cube currency="ILS" rate="3.523508"/>
-<Cube currency="IMP" rate="0.836362"/>
 <Cube currency="INR" rate="80.764421"/>
 <Cube currency="IQD" rate="1479.859042"/>
 <Cube currency="IRR" rate="43137.236879"/>
 <Cube currency="ISK" rate="139.52669"/>
-<Cube currency="JEP" rate="0.836362"/>
 <Cube currency="JMD" rate="152.878331"/>
 <Cube currency="JOD" rate="0.72222"/>
 <Cube currency="JPY" rate="138.620145"/>
