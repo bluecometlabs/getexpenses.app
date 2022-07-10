@@ -5,6 +5,9 @@
 - [Bundler](https://bundler.io)
 - [Jekyll](https://jekyllrb.com)
 
+> **Note**  
+> Euro foreign exchange reference rates are updated via [Fixer.io](https://fixer.io).
+
 ## Installation
 
 ```bash
