@@ -1,10 +1,12 @@
 # Compress images on demand (workflow_dispatch), and at 11pm every Sunday (schedule).
 # Open a Pull Request if any images can be compressed.
 name: Compress Images
+
 on:
   workflow_dispatch:
   schedule:
     - cron: '00 23 * * 0'
+
 jobs:
   build:
     name: calibreapp/image-actions
