@@ -20,6 +20,6 @@ jobs:
         if [[ `git status --porcelain` ]]; then
           git config --global user.name 'Hiroki Nagasawa'
           git config --global user.email '2482478+pixyzehn@users.noreply.github.com'
-          git commit -am "Update eurofxref XML file"
+          git commit -am "[GitHub Actions] Update eurofxref XML file"
           git push
         fi
