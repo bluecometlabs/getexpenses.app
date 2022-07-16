@@ -1,4 +1,6 @@
-# [getexpenses.app](https://getexpenses.app) [![jekyll build](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml/badge.svg)](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml)
+# [getexpenses.app](https://getexpenses.app)
+
+[![jekyll build](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml/badge.svg)](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml)
 
 [Euro foreign exchange reference rates](/eurofxref) are updated every day via [Fixer.io](https://fixer.io).
 
