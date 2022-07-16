@@ -4,6 +4,8 @@
 
 [Euro foreign exchange reference rates](/eurofxref) are updated every day via [Fixer.io](https://fixer.io).
 
+[Releases](https://github.com/pixyzehn/getexpenses.app/releases) are published only when the press kit needs to be updated as the download URL refers to the latest release.
+
 ## Requirements
 
 - [Bundler](https://bundler.io)
