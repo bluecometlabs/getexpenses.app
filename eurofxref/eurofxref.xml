@@ -4,7 +4,7 @@
 <gesmes:name>Expenses</gesmes:name>
 </gesmes:Sender>
 <Cube>
-<Cube time="2022-07-23">
+<Cube time="2022-07-24">
 <Cube currency="AED" rate="3.75174"/>
 <Cube currency="AFN" rate="91.511799"/>
 <Cube currency="ALL" rate="116.689543"/>
@@ -18,13 +18,13 @@
 <Cube currency="BAM" rate="1.955655"/>
 <Cube currency="BBD" rate="2.053716"/>
 <Cube currency="BDT" rate="96.068791"/>
-<Cube currency="BGN" rate="1.954925"/>
+<Cube currency="BGN" rate="1.956284"/>
 <Cube currency="BHD" rate="0.384966"/>
 <Cube currency="BIF" rate="2095.002251"/>
 <Cube currency="BMD" rate="1.021408"/>
 <Cube currency="BND" rate="1.413973"/>
 <Cube currency="BOB" rate="6.982674"/>
-<Cube currency="BRL" rate="5.593499"/>
+<Cube currency="BRL" rate="5.614346"/>
 <Cube currency="BSD" rate="1.017109"/>
 <Cube currency="BTN" rate="81.205923"/>
 <Cube currency="BWP" rate="12.907843"/>
@@ -33,7 +33,7 @@
 <Cube currency="BZD" rate="2.050216"/>
 <Cube currency="CAD" rate="1.319405"/>
 <Cube currency="CDF" rate="2045.374453"/>
-<Cube currency="CHF" rate="0.988938"/>
+<Cube currency="CHF" rate="0.982371"/>
 <Cube currency="CLF" rate="0.034238"/>
 <Cube currency="CLP" rate="944.738935"/>
 <Cube currency="CNY" rate="6.895839"/>
@@ -79,7 +79,7 @@
 <Cube currency="KHR" rate="4162.127001"/>
 <Cube currency="KMF" rate="474.571948"/>
 <Cube currency="KPW" rate="919.267609"/>
-<Cube currency="KRW" rate="1338.852392"/>
+<Cube currency="KRW" rate="1338.295373"/>
 <Cube currency="KWD" rate="0.313985"/>
 <Cube currency="KYD" rate="0.847624"/>
 <Cube currency="KZT" rate="490.63603"/>
