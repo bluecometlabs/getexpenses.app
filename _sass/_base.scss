@@ -98,6 +98,7 @@ a {
 
   &:hover {
     color: $primary-content-color;
+    opacity: 0.5;
     text-decoration: underline;
   }
 }
