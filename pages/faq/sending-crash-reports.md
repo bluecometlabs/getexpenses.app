@@ -12,7 +12,7 @@ If we can't find any crash reports, the best way would be to send us crash repor
 
 1. Open the Analytics & Improvements section of Settings on the device. See [Share analytics, diagnostics, and usage information with Apple](https://support.apple.com/en-us/HT202100)
 2. Tap Analytics Data
-3. Locate the log for your app. The log name starts with <AppBinaryName>_<DateTime> for crash reports, or JetsamEvent_<DateTime> for high-memory use crashes
+3. Locate the log for your app. The log name starts with `Expenses_<DateTime>` for crash reports, or `JetsamEvent_<DateTime>` for high-memory use crashes
 4. Select the desired log
 5. Tap the Share icon, and select Mail to send the crash report as a mail attachment
 
