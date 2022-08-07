@@ -10,7 +10,7 @@ If you can't get a sharing link (e.g., nothing happens when trying to generate t
 
 When you share the link with others, we suggest that:
 
-- Open in Safari so that opening the link will take you to the Expenses app automatically
+- Use Messages app from Apple so that opening the link will take you to the Expenses app automatically
 - Make sure the link Hasn't Expired (it'll expire after 30 days)
 - Make sure you both already purchased "Expenses Pro"
 
