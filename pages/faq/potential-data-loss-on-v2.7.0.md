@@ -16,7 +16,7 @@ If you have any backup, please see the following steps to restore the data:
 
 2. Try force fetch all data from iCloud via the Sync page
 
-If you don't have any backup, unfortunately, there is no way to restore the data so far. We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
+If you don't have any backup, unfortunately, there is no easy way for us to restore the data so far. On macOS, you might be able to restore the data from Time Machine local snapshots. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
 ## Problem
 
