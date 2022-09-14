@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Get an error when trying to restore a purchase
-permalink: /faq/error-when-trying-to-restore-purchase
+title: Troubleshooting error when restoring purchase
+permalink: /faq/troubleshooting-error-when-restoring-purchase
 ---
 
-# Get an error when trying to restore a purchase
+# Troubleshooting error when restoring purchase
 
 Please check the following list from [If you can't find or use your in-app purchases](https://support.apple.com/en-us/HT204530) from Apple Support.
 

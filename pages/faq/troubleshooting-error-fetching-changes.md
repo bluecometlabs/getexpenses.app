@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Error fetching changes
-permalink: /faq/error-fetching-changes
+title: Troubleshooting error fetching changes
+permalink: /faq/troubleshooting-error-fetching-changes
 ---
 
-# Error fetching changes
+# Troubleshooting error fetching changes
 
 If you get an error saying that `Error fetching changes in zone ... :client knowledge differs from server knowledge`, please do the following troubleshooting.
 

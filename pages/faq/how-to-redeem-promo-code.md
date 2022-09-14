@@ -1,10 +1,10 @@
 ---
 layout: default
-title: How to redeem a promo code
-permalink: /faq/how-to-redeem-promo-code
+title: Redeem Promo Code
+permalink: /faq/Redeem-promo-code
 ---
 
-# How to redeem a promo code
+# Redeem Promo Code
 
 Here is a simple step-by-step instruction of how to redeem your promo code. All you need is the promo code and your Apple ID with the password. For more information, please refer to [How to redeem your Apple Gift Card or App Store & iTunes gift card](https://support.apple.com/en-us/HT201209) from Apple Support.
 
