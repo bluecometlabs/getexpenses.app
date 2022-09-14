@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Family Purchases
 permalink: /faq/family-purchases
 ---
 

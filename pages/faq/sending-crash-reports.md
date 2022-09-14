@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Sending crash reports
 permalink: /faq/sending-crash-reports
 ---
 

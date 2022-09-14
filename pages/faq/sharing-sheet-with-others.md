@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Sharing a sheet with others
 permalink: /faq/sharing-sheet-with-others
 ---
 

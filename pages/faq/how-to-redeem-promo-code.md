@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: How to redeem a promo code
 permalink: /faq/how-to-redeem-promo-code
 ---
 

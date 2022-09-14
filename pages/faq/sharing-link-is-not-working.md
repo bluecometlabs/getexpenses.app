@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Sharing link isn't working
 permalink: /faq/sharing-link-is-not-working
 ---
 

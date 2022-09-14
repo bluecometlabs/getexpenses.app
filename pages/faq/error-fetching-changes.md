@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Error fetching changes
 permalink: /faq/error-fetching-changes
 ---
 

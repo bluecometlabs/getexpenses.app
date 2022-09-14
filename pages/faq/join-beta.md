@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Join the beta with TestFlight
 permalink: /faq/join-beta
 ---
 

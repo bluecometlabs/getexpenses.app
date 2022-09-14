@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Disabled iCloud Sync
 permalink: /faq/disabled-icloud-sync
 ---
 

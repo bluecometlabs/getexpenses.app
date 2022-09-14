@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Universal Purchase
 permalink: /faq/universal-purchase
 ---
 

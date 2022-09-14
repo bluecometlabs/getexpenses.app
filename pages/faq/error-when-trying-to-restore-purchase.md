@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Get an error when trying to restore a purchase
 permalink: /faq/error-when-trying-to-restore-purchase
 ---
 

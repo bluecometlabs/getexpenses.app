@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Getting Started
 permalink: /faq/getting-started
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Potential data loss on v2.7.0
 permalink: /faq/potential-data-loss
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Translation in your language
 permalink: /faq/translation-in-your-lang
 ---
 

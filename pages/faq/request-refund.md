@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: Request a refund
 permalink: /faq/request-refund
 ---
 

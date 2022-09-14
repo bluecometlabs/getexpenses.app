@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Frequently Asked Questions
+title: iCloud Sync is not working between iOS and Mac
 permalink: /faq/icloud-sync-is-not-working
 ---
 
