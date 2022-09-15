@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Redeem Promo Code
-permalink: /faq/Redeem-promo-code
+permalink: /faq/redeem-promo-code
 ---
 
 # Redeem Promo Code
