@@ -6,19 +6,20 @@ permalink: /faq/potential-data-loss
 
 # Potential data loss on v2.7.0
 
-**Update 2022-09-14**
+**Update on 2022-09-18**
 
 If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
 
 1. Go to Terminal.app on your macOS
-2. Run the following command (Note: Replace [your user name] with your user name)
+2. Run the following command (if you use Setapp replace ` com.pixyzehn.Expenses` with ` com.pixyzehn.Expenses-setapp`)
 
     ```sh
-    rm -rf /Users/[your user name]/Library/Group\ Containers/group.com.pixyzehn.Expenses/Expenses.sqlite
+    defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
     ```
 
-3. Restart Expenses.app (so that the app creates a new data store based on the previous data store)
-4. Check if your data is restored
+3. Restart Expenses.app
+4. Go to Preferences > Troubleshooting Migration Issue
+5. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
 
 ---
 
