@@ -6,7 +6,7 @@ permalink: /faq/potential-data-loss
 
 # Potential data loss on v2.7.0
 
-**Update on 2022-09-18**
+## Solution
 
 If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
 
@@ -20,6 +20,8 @@ If you don't any sheets that you had previously on macOS, you might be able to r
 3. Restart Expenses.app
 4. Go to Preferences > Troubleshooting Migration Issue
 5. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
+
+*Updated on 2022-09-18*
 
 ---
 
