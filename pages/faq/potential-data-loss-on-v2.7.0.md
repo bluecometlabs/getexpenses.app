@@ -10,16 +10,17 @@ permalink: /faq/potential-data-loss
 
 If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
 
-1. Go to Terminal.app on your macOS
-2. Run the following command (if you use Setapp replace ` com.pixyzehn.Expenses` with ` com.pixyzehn.Expenses-setapp`)
+1. Update Expenses to Version 2.7.3
+2. Go to Terminal.app on your macOS
+3. Run the following command (if you use Setapp replace ` com.pixyzehn.Expenses` with ` com.pixyzehn.Expenses-setapp`)
 
     ```sh
     defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
     ```
 
-3. Restart Expenses.app
-4. Go to Preferences > Troubleshooting Migration Issue
-5. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
+4. Restart Expenses.app
+5. Go to Preferences > Troubleshooting Migration Issue
+6. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
 
 *Updated on 2022-09-18*
 
