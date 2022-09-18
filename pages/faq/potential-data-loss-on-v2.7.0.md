@@ -23,6 +23,8 @@ If you don't any sheets that you had previously on macOS, you might be able to r
 
 ---
 
+## Context
+
 We've found a potential data loss issue only when updating the app to v2.7.0 from earlier versions. The data loss can happen only locally, so if you have any backup on iCloud using Expenses Pro, you can restore the data from the backup. If not, unfortunately, you may lose the data.
 
 If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
