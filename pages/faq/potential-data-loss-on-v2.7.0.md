@@ -10,7 +10,7 @@ permalink: /faq/potential-data-loss
 
 If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
 
-1. Update Expenses to Version 2.7.3
+1. Update Expenses to Version 2.7.3 or higher versions
 2. Go to Terminal.app on your macOS
 3. Run the following command (if you use Setapp replace ` com.pixyzehn.Expenses` with ` com.pixyzehn.Expenses-setapp`)
 
