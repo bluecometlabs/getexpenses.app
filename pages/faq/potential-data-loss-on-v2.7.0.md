@@ -37,13 +37,13 @@ If you don't have any backup, you might be able to restore the data from Time Ma
 We needed to move our data store to accomplish some new features. On the data migration, we found that we tried to delete the old store even if the migration failed in some situations or the migration was not completed for some reason. It seems this can happen especially on macOS.
 
 Old Store:
-`/Users/[your user name]/Library/Containers/com.pixyzehn.Expenses/Data/Library/Application\ Support/Expenses/Expenses.sqlite`  
-(If it's installed via Setapp: `/Users/[your user name]/Library/Containers/com.pixyzehn.Expenses-setapp/Data/Library/Application\ Support/Expenses/Expenses.sqlite`)
+`~/Library/Containers/com.pixyzehn.Expenses/Data/Library/Application\ Support/Expenses/Expenses.sqlite`  
+(If it's installed via Setapp: `~/Library/Containers/com.pixyzehn.Expenses-setapp/Data/Library/Application\ Support/Expenses/Expenses.sqlite`)
 
 ↓
 
 New Store:
-`/Users/[your user name]/Library/Group\ Containers/group.com.pixyzehn.Expenses/Expenses.sqlite`
+`~/Library/Group\ Containers/group.com.pixyzehn.Expenses/Expenses.sqlite`
 
 It seems that this could cause (or looked like) data loss for some users. In retrospect, we should have done the migration in a safe way. We'll add a safety check to prevent this issue in the future.
 
