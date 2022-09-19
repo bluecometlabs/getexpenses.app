@@ -22,6 +22,8 @@ If you don't any sheets that you had previously on macOS, you might be able to r
 5. Go to Preferences > Troubleshooting Migration Issue
 6. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
 
+> If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
+
 *Updated on 2022-09-18*
 
 ---
