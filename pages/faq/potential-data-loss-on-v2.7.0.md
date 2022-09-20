@@ -6,13 +6,17 @@ permalink: /faq/potential-data-loss
 
 # Potential data loss on v2.7.0
 
+We've found a potential data loss issue only when updating the app to v2.7.0 from earlier versions.
+
 ## Solution
 
 If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
 
+> If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
+
 1. Update Expenses to Version 2.7.3 or higher versions
 2. Go to Terminal.app on your macOS
-3. Run the following command (if you use Setapp replace ` com.pixyzehn.Expenses` with ` com.pixyzehn.Expenses-setapp`)
+3. Run the following command (if you use Setapp replace `com.pixyzehn.Expenses` with `com.pixyzehn.Expenses-setapp`)
 
     ```sh
     defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
@@ -22,25 +26,19 @@ If you don't any sheets that you had previously on macOS, you might be able to r
 5. Go to Preferences > Troubleshooting Migration Issue
 6. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
 
-> If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
+If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
 *Updated on 2022-09-18*
 
 ---
 
-## Context
-
-We've found a potential data loss issue only when updating the app to v2.7.0 from earlier versions. The data loss can happen only locally, so if you have any backup on iCloud using Expenses Pro, you can restore the data from the backup. If not, unfortunately, you may lose the data.
-
-If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
-
 ## Problem
 
-We needed to move our data store to accomplish some new features. On the data migration, we found that we tried to delete the old store even if the migration failed in some situations or the migration was not completed for some reason. It seems this can happen especially on macOS.
+We needed to move our data store to accomplish some new features. On the data migration using [migratePersistentStore(_:to:options:type:)](https://developer.apple.com/documentation/coredata/nspersistentstorecoordinator/3747534-migratepersistentstore), we found something wrong with the migration process especially on macOS.
 
 Old Store:
 `~/Library/Containers/com.pixyzehn.Expenses/Data/Library/Application\ Support/Expenses/Expenses.sqlite`  
-(If it's installed via Setapp: `~/Library/Containers/com.pixyzehn.Expenses-setapp/Data/Library/Application\ Support/Expenses/Expenses.sqlite`)
+> If it's installed via Setapp: `~/Library/Containers/com.pixyzehn.Expenses-setapp/Data/Library/Application\ Support/Expenses/Expenses.sqlite`
 
 ↓
 
