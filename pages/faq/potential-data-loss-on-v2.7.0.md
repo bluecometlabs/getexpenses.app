@@ -10,25 +10,28 @@ We've found a potential data loss issue only when updating the app to v2.7.0 fro
 
 ## Solution
 
-If you don't any sheets that you had previously on macOS, you might be able to restore your data by removing a broken new data store. Please follow the steps below:
+If you don't any sheets that you had previously, you might be able to restore your data by removing broken new data store. Please follow the steps below:
 
 > If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
 
-1. Update Expenses to Version 2.7.3 or higher versions
-2. Go to Terminal.app on your macOS
-3. Run the following command (if you use Setapp replace `com.pixyzehn.Expenses` with `com.pixyzehn.Expenses-setapp`)
+1. Go to the app's settings and see if you can see "Troubleshooting Migration Issue"
+2. Click "Retry Migration" (if it's disabled, please contact us with the screenshot) and restart the app
+
+If you can't see it, please try the following steps on macOS:
+
+1. Update Expenses to Version 2.7.3 or higher versions and go to Terminal.app
+2. Run the following command (if you use Setapp replace `com.pixyzehn.Expenses` with `com.pixyzehn.Expenses-setapp`)
 
     ```sh
     defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
     ```
 
-4. Restart Expenses.app
-5. Go to Preferences > Troubleshooting Migration Issue
-6. Click "Retry Migration" (if it's disabled, please contact us with the screenshot)
+3. Restart Expenses.app and go to Preferences > Troubleshooting Migration Issue
+4. Click "Retry Migration" (if it's disabled, please contact us with the screenshot) and restart the app
 
 If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
-*Updated on 2022-09-18*
+*Updated on September 24, 2022*
 
 ---
 
