@@ -14,8 +14,9 @@ If you don't any sheets that you had previously, you might be able to restore yo
 
 > If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
 
-1. Go to the app's settings and see if you can see "Troubleshooting Migration Issue"
-2. Click "Retry Migration" (if it's disabled, please contact us with the screenshot) and restart the app
+1. Update Expenses to Version 2.7.7 or higher versions
+2. Go to the app's settings and see if you can see "Troubleshooting Migration Issue"
+3. Click "Retry Migration" (if it's disabled, please contact us with the screenshot) and restart the app
 
 If you can't see it, please try the following steps on macOS:
 
@@ -31,7 +32,7 @@ If you can't see it, please try the following steps on macOS:
 
 If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
-*Updated on September 24, 2022*
+*Updated on September 25, 2022*
 
 ---
 
