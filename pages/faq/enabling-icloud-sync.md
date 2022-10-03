@@ -10,7 +10,7 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 
 **iOS/iPadOS**
 
-1. Go to `Settings (System)` → `Apple ID` → `iCloud` and make sure that you check `Expenses`
+1. Go to `Settings (System)` → `Apple ID` → `iCloud` → `Show All` and make sure that you check `Expenses`
 2. Relaunch the app to properly reflect the change
 3. See the iCloud Sync is now enabled
 
