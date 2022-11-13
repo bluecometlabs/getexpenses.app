@@ -4,7 +4,7 @@
 <gesmes:name>Expenses</gesmes:name>
 </gesmes:Sender>
 <Cube>
-<Cube time="2022-11-12">
+<Cube time="2022-11-13">
 <Cube currency="AED" rate="3.810075"/>
 <Cube currency="AFN" rate="91.053524"/>
 <Cube currency="ALL" rate="117.084532"/>
@@ -18,13 +18,13 @@
 <Cube currency="BAM" rate="1.955906"/>
 <Cube currency="BBD" rate="2.07778"/>
 <Cube currency="BDT" rate="105.171471"/>
-<Cube currency="BGN" rate="1.959653"/>
+<Cube currency="BGN" rate="1.957221"/>
 <Cube currency="BHD" rate="0.390215"/>
 <Cube currency="BIF" rate="2128.772391"/>
 <Cube currency="BMD" rate="1.03729"/>
 <Cube currency="BND" rate="1.417255"/>
 <Cube currency="BOB" rate="7.110875"/>
-<Cube currency="BRL" rate="5.514113"/>
+<Cube currency="BRL" rate="5.500813"/>
 <Cube currency="BSD" rate="1.02904"/>
 <Cube currency="BTN" rate="83.169319"/>
 <Cube currency="BWP" rate="13.330016"/>
@@ -51,11 +51,11 @@
 <Cube currency="ERN" rate="15.559352"/>
 <Cube currency="ETB" rate="54.949327"/>
 <Cube currency="FJD" rate="2.312898"/>
-<Cube currency="FKP" rate="0.879177"/>
+<Cube currency="FKP" rate="0.877201"/>
 <Cube currency="GBP" rate="0.876275"/>
 <Cube currency="GEL" rate="2.811462"/>
 <Cube currency="GHS" rate="14.921578"/>
-<Cube currency="GIP" rate="0.879177"/>
+<Cube currency="GIP" rate="0.877201"/>
 <Cube currency="GMD" rate="63.559995"/>
 <Cube currency="GNF" rate="8865.443124"/>
 <Cube currency="GTQ" rate="8.047411"/>
@@ -78,7 +78,7 @@
 <Cube currency="KGS" rate="87.44429"/>
 <Cube currency="KHR" rate="4262.464973"/>
 <Cube currency="KMF" rate="501.326266"/>
-<Cube currency="KPW" rate="933.480454"/>
+<Cube currency="KPW" rate="933.561151"/>
 <Cube currency="KRW" rate="1363.134499"/>
 <Cube currency="KWD" rate="0.318272"/>
 <Cube currency="KYD" rate="0.857533"/>
@@ -96,7 +96,7 @@
 <Cube currency="MGA" rate="4414.730866"/>
 <Cube currency="MKD" rate="61.617385"/>
 <Cube currency="MMK" rate="2161.057641"/>
-<Cube currency="MNT" rate="3544.00657"/>
+<Cube currency="MNT" rate="3537.056152"/>
 <Cube currency="MOP" rate="8.308322"/>
 <Cube currency="MRO" rate="370.312404"/>
 <Cube currency="MUR" rate="45.351755"/>
@@ -136,7 +136,7 @@
 <Cube currency="SRD" rate="31.177869"/>
 <Cube currency="STD" rate="21469.811759"/>
 <Cube currency="SVC" rate="9.004349"/>
-<Cube currency="SYP" rate="2606.219284"/>
+<Cube currency="SYP" rate="2606.222963"/>
 <Cube currency="SZL" rate="17.757187"/>
 <Cube currency="THB" rate="37.285434"/>
 <Cube currency="TJS" rate="10.3422"/>
@@ -153,8 +153,8 @@
 <Cube currency="UYU" rate="41.291598"/>
 <Cube currency="UZS" rate="11532.736358"/>
 <Cube currency="VND" rate="25740.354994"/>
-<Cube currency="VUV" rate="125.133322"/>
-<Cube currency="WST" rate="2.870242"/>
+<Cube currency="VUV" rate="124.14003"/>
+<Cube currency="WST" rate="2.88938"/>
 <Cube currency="XAF" rate="655.982389"/>
 <Cube currency="XAG" rate="0.047821"/>
 <Cube currency="XAU" rate="0.000586"/>
