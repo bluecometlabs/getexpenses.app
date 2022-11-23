@@ -10,18 +10,19 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 
 **iOS/iPadOS**
 
-1. Go to `Settings (System)` → `Apple ID` → `iCloud` → `Show All` and make sure that you check `Expenses`
-2. Relaunch the app to properly reflect the change
-3. See the iCloud Sync is now enabled
+1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
+2. Go to `Settings (System)` → `Apple ID` → `iCloud` → `Show All` and make sure that you check `Expenses`
+3. Relaunch the app to properly reflect the change
+4. See the iCloud Sync is now enabled
 
 **macOS**
 
-1. Go to `System Preferences (System)` → `Apple ID` → `iCloud Drive (Documents)` and make sure that you check `Expenses`
-2. Relaunch the app to properly reflect the change
-3. See the iCloud Sync is now enabled
+1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
+2. Go to `System Settings (System)` → `Apple ID` → `iCloud Drive (Documents)` and make sure that you check `Expenses`
+3. Relaunch the app to properly reflect the change
+4. See the iCloud Sync is now enabled
 
 If it still doesn't work, please check the following:
-- Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
 - [Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242) and sign in to iCloud again
 - See if there is any error or warning on your iCloud account
 - Check if parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials
