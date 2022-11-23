@@ -21,6 +21,7 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 3. See the iCloud Sync is now enabled
 
 If it still doesn't work, please check the following:
+- Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
 - [Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242) and sign in to iCloud again
 - See if there is any error or warning on your iCloud account
 - Check if parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials
