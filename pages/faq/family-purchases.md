@@ -11,7 +11,7 @@ We have enabled Family Sharing functionality for the purchase. To access in-app 
 1. Open the App Store
 2. Tap on your profile
 3. Select `Purchased`
-4. Tap your family member in Family Purchases
+4. Tap your family member in `Family Purchases`
 5. Download the Expenses app from there
 
 {% include faq_footer.html %}
