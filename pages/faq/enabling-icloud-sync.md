@@ -8,21 +8,39 @@ permalink: /faq/enabling-icloud-sync
 
 We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access your iCloud account on your device for some reason (Technically, we're checking if your iCloud account is available via [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus)). To enable it, please check the following.
 
-**iOS/iPadOS**
+- [iOS/iPadOS](#iosipados)
+- [macOS](#macos)
+
+---
+
+## iOS/iPadOS
 
 1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
+
+    <img src="../../assets/faq/enabling-icloud-sync/iOS-1.jpg" width="40%">
+
 2. Go to `Settings (System)` → `Apple ID` → `iCloud` → `Show All` and make sure that you check `Expenses`
+
+    <img src="../../assets/faq/enabling-icloud-sync/iOS-2.jpg" width="40%">
+
 3. Relaunch the app to properly reflect the change
 4. See the iCloud Sync is now enabled
 
-**macOS**
+## macOS
 
 1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
+
+    <img src="../../assets/faq/enabling-icloud-sync/macOS-1.jpg" width="65%">
+
 2. Go to `System Settings (System)` → `Apple ID` → `iCloud Drive (Documents)` and make sure that you check `Expenses`
+
+    <img src="../../assets/faq/enabling-icloud-sync/macOS-2.jpg" width="65%">
+
 3. Relaunch the app to properly reflect the change
 4. See the iCloud Sync is now enabled
 
-If it still doesn't work, please check the following:
+If it still doesn't work, please check the following just in case.
+
 - [Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242) and sign in to iCloud again
 - See if there is any error or warning on your iCloud account
 - Check if parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials

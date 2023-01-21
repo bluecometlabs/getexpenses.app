@@ -8,19 +8,30 @@ permalink: /faq/troubleshooting-icloud-sync
 
 First, please make sure that you use the same iCloud account on both iOS/iPadOS and macOS, and have enough iCloud storage on both. If it still doesn't work, please do the following troubleshooting.
 
-**iOS/iPadOS**
+If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enabling-icloud-sync).
+
+- [iOS/iPadOS](#iosipados)
+- [macOS](#macos)
+
+---
+
+## iOS/iPadOS
 
 1. Go to `Settings (Expenses)` → `Sync`
 2. Click `Force push all data to iCloud`
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
 
-**macOS**
+<img src="../../assets/faq/troubleshooting-icloud-sync/iOS-1.jpg" width="40%">
+
+## macOS
 
 1. Go to `Preferences... (Expenses)` → `Sync`
 2. Click `Force push all data to iCloud`
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
+
+<img src="../../assets/faq/troubleshooting-icloud-sync/macOS-1.jpg" width="65%">
 
 Sometimes, there is something wrong with the Apple System. Please also check [the status page](https://www.apple.com/support/systemstatus/) just in case.
 
