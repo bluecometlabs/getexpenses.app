@@ -6,9 +6,14 @@ permalink: /faq/troubleshooting-error-fetching-changes
 
 # Troubleshooting error fetching changes
 
-If you get an error saying that `Error fetching changes in zone ... :client knowledge differs from server knowledge`, please do the following troubleshooting.
+If you get an error saying that `Error fetching changes in zone ... :client knowledge differs from server knowledge`, please do the following troubleshooting. For more information, please check [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync).
 
-**iOS/iPadOS**
+- [iOS/iPadOS](#iosipados)
+- [macOS](#macos)
+
+---
+
+## iOS/iPadOS
 
 1. Restart your device
 2. Go to `Settings (Expenses)` → `Sync`
@@ -17,7 +22,9 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 5. Go to `Settings (Expenses)` → `Sync`
 6. Click `Fetch all data from iCloud`
 
-**macOS**
+<img src="../../assets/faq/troubleshooting-icloud-sync/iOS-1.jpg" width="40%">
+
+## macOS
 
 1. Restart your Mac
 2. Go to `Preferences... (Expenses)` → `Sync`
@@ -26,6 +33,6 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 5. Go to `Preferences... (Expenses)` → `Sync`
 6. Click `Fetch all data from iCloud`
 
-Since syncing relies on iCloud storage, please make sure that you have enough storage on your iCloud.
+<img src="../../assets/faq/troubleshooting-icloud-sync/macOS-1.jpg" width="65%">
 
 {% include faq_footer.html %}

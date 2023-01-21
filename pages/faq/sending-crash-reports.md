@@ -8,7 +8,12 @@ permalink: /faq/sending-crash-reports
 
 If we can't find any crash reports, the best way would be to send us crash reports to identify the issue.
 
-**iOS/iPadOS**
+- [iOS/iPadOS](#iosipados)
+- [macOS](#macos)
+
+---
+
+## iOS/iPadOS
 
 1. Open the Analytics & Improvements section (in Settings > Privacy & Security) on the device. See [Share analytics, diagnostics, and usage information with Apple](https://support.apple.com/en-us/HT202100)
 2. Tap Analytics Data
@@ -16,7 +21,7 @@ If we can't find any crash reports, the best way would be to send us crash repor
 4. Select the desired log
 5. Tap the Share icon, and select Mail to send the crash report as a mail attachment
 
-**macOS**
+## macOS
 
 1. Open the Console app, from Applications > Utilities in Finder
 2. Select Crash Reports

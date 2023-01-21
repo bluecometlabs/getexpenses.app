@@ -8,6 +8,11 @@ permalink: /faq/potential-data-loss
 
 We've found a potential data loss issue only when updating the app to v2.7.0 from earlier versions.
 
+- [Solution](#solution)
+- [Problem](#problem)
+
+---
+
 ## Solution
 
 If you don't any sheets that you had previously, you might be able to restore your data by removing broken new data store. Please follow the steps below:
