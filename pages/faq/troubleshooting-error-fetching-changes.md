@@ -22,7 +22,7 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 5. Go to `Settings (Expenses)` → `Sync`
 6. Click `Fetch all data from iCloud`
 
-<img src="../../assets/faq/troubleshooting-icloud-sync/iOS-1.jpg" width="40%">
+<img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
 
 ## macOS
 
@@ -33,6 +33,6 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 5. Go to `Preferences... (Expenses)` → `Sync`
 6. Click `Fetch all data from iCloud`
 
-<img src="../../assets/faq/troubleshooting-icloud-sync/macOS-1.jpg" width="65%">
+<img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="65%">
 
 {% include faq_footer.html %}

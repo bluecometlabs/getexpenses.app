@@ -17,16 +17,18 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 ## iOS/iPadOS
 
 - Make sure that you have enough storage space in iCloud on your device
-- Go to `Settings (System)` → `Apple ID` → `iCloud` and make sure that you check `Expenses`
-- Go to `Settings (Expenses)` → `Sync` and check iCloud Sync is turned on
+- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
+
+<img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
 
 ## macOS
 
 - Make sure that You have enough storage space in iCloud
-- Go to `System Preferences (System)` → `Apple ID` → `iCloud Drive (Documents)` and make sure that you check `Expenses`
-- Go to `Preferences... (Expenses)` → `Sync` and check iCloud Sync is turned on
+- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
+
+<img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="40%">
 
 ## Troubleshooting
 

@@ -17,11 +17,11 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 
 1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
 
-    <img src="../../assets/faq/enabling-icloud-sync/iOS-1.jpg" width="40%">
+    <img src="../../assets/faq/enabling-icloud-sync/icloud-drive-ios.jpg" width="40%">
 
 2. Go to `Settings (System)` → `Apple ID` → `iCloud` → `Show All` and make sure that you check `Expenses`
 
-    <img src="../../assets/faq/enabling-icloud-sync/iOS-2.jpg" width="40%">
+    <img src="../../assets/faq/enabling-icloud-sync/icloud-check-ios.jpg" width="40%">
 
 3. Relaunch the app to properly reflect the change
 4. See the iCloud Sync is now enabled
@@ -30,11 +30,11 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 
 1. Turn on iCloud Drive (or the Documents & Data feature) on your iCloud account
 
-    <img src="../../assets/faq/enabling-icloud-sync/macOS-1.jpg" width="65%">
+    <img src="../../assets/faq/enabling-icloud-sync/icloud-drive-mac.jpg" width="65%">
 
 2. Go to `System Settings (System)` → `Apple ID` → `iCloud Drive (Documents)` and make sure that you check `Expenses`
 
-    <img src="../../assets/faq/enabling-icloud-sync/macOS-2.jpg" width="65%">
+    <img src="../../assets/faq/enabling-icloud-sync/icloud-check-mac.jpg" width="65%">
 
 3. Relaunch the app to properly reflect the change
 4. See the iCloud Sync is now enabled

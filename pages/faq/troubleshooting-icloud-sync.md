@@ -22,7 +22,7 @@ If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enabli
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
 
-<img src="../../assets/faq/troubleshooting-icloud-sync/iOS-1.jpg" width="40%">
+<img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
 
 ## macOS
 
@@ -31,7 +31,7 @@ If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enabli
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
 
-<img src="../../assets/faq/troubleshooting-icloud-sync/macOS-1.jpg" width="65%">
+<img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="65%">
 
 Sometimes, there is something wrong with the Apple System. Please also check [the status page](https://www.apple.com/support/systemstatus/) just in case.
 
