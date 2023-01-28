@@ -1,8 +1,38 @@
 <footer class="site-footer">
     <div class="wrapper">
+        <hr>
+        <div class="row row-cols-2">
+            <div class="col-md-3 my-2">
+                <h5>Product</h5>
+                <ul class="nav flex-column ml-0">
+                    <li class="nav-item mb-2"><a href="{{ site.links.app_store }}" class="nav-link p-0 text-muted">App Store</a></li>
+                    <li class="nav-item mb-2"><a href="{{ site.links.setapp }}" class="nav-link p-0 text-muted">Setapp</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 my-2">
+                <h5>Support</h5>
+                <ul class="nav flex-column ml-0">
+                    <li class="nav-item mb-2"><a href="/faq/" class="nav-link p-0 text-muted">FAQs</a></li>
+                    <li class="nav-item mb-2"><a href="/contact/" class="nav-link p-0 text-muted">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 my-2">
+                <h5>Company</h5>
+                <ul class="nav flex-column ml-0">
+                    <li class="nav-item mb-2"><a href="/press/" class="nav-link p-0 text-muted">Press</a></li>
+                    <li class="nav-item mb-2"><a href="{{ site.links.twitter }}" class="nav-link p-0 text-muted">Twitter</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 my-2">
+                <h5>Legal</h5>
+                <ul class="nav flex-column ml-0">
+                    <li class="nav-item mb-2"><a href="/privacy/" class="nav-link p-0 text-muted">Privacy Policy</a></li>
+                    <li class="nav-item mb-2"><a href="/terms/" class="nav-link p-0 text-muted">Terms and Conditions</a></li>
+                </ul>
+            </div>
+          </div>    
         <p class="text-muted text-center">
             <small>
-                <a href="/privacy/">Privacy Policy</a> • <a href="/terms/">Terms and Conditions</a> • <a href="/press/">Press</a><br>
                 &copy; 2020-{{ site.time | date: '%Y' }} Blue Comet Labs LLC. All Rights Reserved.<br>
                 Powered by <a href="{{ site.links.jekyll }}">Jekyll</a> ♥
             </small>
