@@ -34,6 +34,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 Sharing a sheet with others uses iCloud Sharing just like sharing a note in Notes.app. If you have any trouble with iCloud Sharing, please check the following:
 
+- Update to the latest version of the app
 - Make sure that you and the person you're trying to share or collaborate with have the latest version of iOS, iPadOS, or macOS
 - Sign in to iCloud with the same Apple ID on all your devices
 - Make sure everyone has enough storage
