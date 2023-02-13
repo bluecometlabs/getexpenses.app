@@ -16,6 +16,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 ## iOS/iPadOS
 
+- Update to the latest version of the app
 - Make sure that you have enough storage space in iCloud on your device
 - Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
@@ -24,6 +25,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 ## macOS
 
+- Update to the latest version of the app
 - Make sure that You have enough storage space in iCloud
 - Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
@@ -34,7 +36,6 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 Sharing a sheet with others uses iCloud Sharing just like sharing a note in Notes.app. If you have any trouble with iCloud Sharing, please check the following:
 
-- Update to the latest version of the app
 - Make sure that you and the person you're trying to share or collaborate with have the latest version of iOS, iPadOS, or macOS
 - Sign in to iCloud with the same Apple ID on all your devices
 - Make sure everyone has enough storage
