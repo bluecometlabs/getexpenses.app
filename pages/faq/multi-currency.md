@@ -23,6 +23,6 @@ In the above example, the sheet is in USD. The first expense (`-€12.00`) is in
 
 ## How the conversion works
 
-When adding an expense/income in a different currency, you can choose either `Automatic Updates` or not. If you choose `Automatic Updates`, the app will automatically convert the amount to the sheet's currency based on the latest currency rates. If you choose not, the app will convert the amount using the currency rate at the time you added the expense/income.
+When adding an expense/income in a different currency, you can choose either `Automatic` or `Manual (Fixed)`. If you choose `Automatic`, the app will automatically convert the amount to the sheet's currency based on the latest currency rates. If you choose `Manual (Fixed)`, the app will convert the amount using the specified currency rate. The default currency rate is the current one (Fixed). You can also set a custom currency rate as default so that you don't have to specify it every time.
 
 {% include faq_footer.html %}
