@@ -6,7 +6,7 @@ permalink: /faq/transfer-money
 
 # Transfer money
 
-You can transfer money between sheets. This is useful when you want to transfer money from one sheet to another because you can record the transfer in both sheets using the `Transfer` category which is treated as a special category.
+You can transfer money between sheets. This is useful when you want to transfer money from one sheet to another because you can record the transfer in both sheets using the `Transfer` category which is treated as a special category. If you edit the transfer, it will be reflected in both sheets.
 
 <table>
     <tr>
