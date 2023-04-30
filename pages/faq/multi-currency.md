@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Multi currency
+title: Multi Currency
 permalink: /faq/multi-currency
 ---
 
-# Multi currency
+# Multi Currency
 
 The app supports multiple currencies. This means you can add expenses/income in different currencies in **a single sheet**. The currency rates are usually updated every day. The supported currencies are listed in [the XML file](https://github.com/pixyzehn/getexpenses.app/blob/main/eurofxref/eurofxref.xml).
 

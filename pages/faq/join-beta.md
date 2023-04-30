@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Join the beta
+title: Join Beta
 permalink: /faq/join-beta
 ---
 
-# Join the beta
+# Join Beta
 
 If you'd like to help us test beta versions of Expenses, please go to the [public link](https://testflight.apple.com/join/MQnPZMBj) and follow the instructions.
 

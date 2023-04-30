@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Sharing a sheet with others
-permalink: /faq/sharing-sheet-with-others
+title: Sharing Sheet
+permalink: /faq/sharing-sheet
 ---
 
-# Sharing a sheet with others
+# Sharing Sheet
 
 To share a sheet with others, people you added also need to purchase "Expenses Pro" because our sharing feature uses iCloud Sync. If the people still can't see anything you shared, please check the following on both sides (you and people you added).
 

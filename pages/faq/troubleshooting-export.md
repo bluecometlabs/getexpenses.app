@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Troubleshooting export error
-permalink: /faq/troubleshooting-export-error
+title: Troubleshooting Export
+permalink: /faq/troubleshooting-export
 ---
 
-# Troubleshooting export error
+# Troubleshooting Export
 
 If you get an error when trying to export a sheet, please do the following troubleshooting. For more information, please check [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync).
 

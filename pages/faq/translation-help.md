@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Translation in your language
-permalink: /faq/translation-in-your-lang
+title: Translation Help
+permalink: /faq/translation-help
 ---
 
-# Translation in your language
+# Translation Help
 
 If you'd like to help us translate the app into a language that we still don't support, we really appreciate your help. In fact, we have supported many languages from our users' efforts. If you're thinking about that, feel free to [contact us](/contact/).
 

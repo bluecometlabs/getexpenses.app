@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Passcode lock
+title: Passcode Lock
 permalink: /faq/passcode-lock
 ---
 
-# Passcode lock
+# Passcode Lock
 
 The app supports passcode lock. To enable it, go to `Settings > Privacy`.
 

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Troubleshooting error fetching changes
-permalink: /faq/troubleshooting-error-fetching-changes
+title: Troubleshooting Fetching Changes
+permalink: /faq/troubleshooting-fetching-changes
 ---
 
-# Troubleshooting error fetching changes
+# Troubleshooting Fetching Changes
 
 If you get an error saying that `Error fetching changes in zone ... :client knowledge differs from server knowledge`, please do the following troubleshooting. For more information, please check [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync).
 

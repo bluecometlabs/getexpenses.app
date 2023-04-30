@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Sending crash reports
+title: Sending Crash Reports
 permalink: /faq/sending-crash-reports
 ---
 
-# Sending crash reports
+# Sending Crash Reports
 
 If we can't find any crash reports, the best way would be to send us crash reports to identify the issue.
 
