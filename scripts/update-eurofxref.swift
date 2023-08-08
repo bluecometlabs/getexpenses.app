@@ -35,7 +35,10 @@ let task = URLSession.shared.dataTask(with: request) { data, response, error in
         print("Number of currency codes: \(numberOfCurrencyCodes)/\(expectedNumberOfCurrencyCodes)")
 
         if numberOfCurrencyCodes != expectedNumberOfCurrencyCodes {
-            fatalError("Error: number of currency codes does not match")
+            let currencyCodes = referenceRatesRef.rates.map { $0.0 }.sorted()
+            let expectedCurrencyCodes = symbols.components(separatedBy: ",").sorted()
+            let diff = currencyCodes.difference(from: expectedCurrencyCodes)
+            fatalError("Error: number of currency codes does not match [\(diff.joined(separator: ", "))]")
         }
     } catch {
         print(String(describing: error))
@@ -52,7 +55,7 @@ func updateEurofxrefFile(referenceRatesRef: ReferenceRatesRef) {
         var result = ""
         let sortedRates = referenceRatesRef.rates
             .filter { $0.key != base }
-            .filter { Locale.isoCurrencyCodes.contains($0.key)  }
+            .filter { Locale.Currency.isoCurrencies.map(\.identifier).contains($0.key)  }
             .sorted { $0.key < $1.key }
         for (index, rate) in sortedRates.enumerated() {
             // E.g., <Cube currency="USD" rate="1.0163"/>
@@ -85,5 +88,13 @@ func updateEurofxrefFile(referenceRatesRef: ReferenceRatesRef) {
         print("File updated successfully.")
     } else {
         print("File not updated.")
+    }
+}
+
+extension Array where Element: Hashable {
+    func difference(from other: [Element]) -> [Element] {
+        let thisSet = Set(self)
+        let otherSet = Set(other)
+        return Array(thisSet.symmetricDifference(otherSet))
     }
 }
