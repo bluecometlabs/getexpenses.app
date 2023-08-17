@@ -41,6 +41,7 @@ permalink: /faq/
         <p>{% include icons/file-text.html %}<a href="/faq/multi-currency">Multi Currency</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/passcode-lock">Passcode Lock</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/transfer-money">Transfer Money</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/pending">Pending</a></p>
     </div>
     <div class="col-sm">
         <p><strong>Others</strong></p>
