@@ -38,6 +38,7 @@ permalink: /faq/
     <div class="col-sm">
         <p><strong>User Guide</strong></p>
         <p>{% include icons/file-text.html %}<a href="/faq/getting-started">Getting Started</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/repeat">Repeat</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/multi-currency">Multi Currency</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/passcode-lock">Passcode Lock</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/transfer-money">Transfer Money</a></p>
