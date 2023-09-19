@@ -50,6 +50,7 @@ permalink: /faq/
         <p>{% include icons/file-text.html %}<a href="/faq/sending-crash-reports">Sending Crash Reports</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/translation-help">Translation Help</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/redeem-promo-code">Redeem Promo Code</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/data-migration-issues">Data migration issues on v3.2.3</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/potential-data-loss">Potential data loss on v2.7.0</a></p>
     </div>
 </div>
