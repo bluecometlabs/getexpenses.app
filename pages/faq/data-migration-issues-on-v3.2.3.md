@@ -16,3 +16,5 @@ Please check the following steps to see if you can restore your data:
 - Force-fetching all data from iCloud. See also [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync)
 
 If you haven't enabled iCloud Sync, please contact us via email. We'll do our best to find a way to restore your data.
+
+Due to the rollback, you might see that all sheets are moved into the "Sheets" section. For now, this is an expected behavior. Please move them back to the original places manually by archiving, moving to trash, and pinning.
