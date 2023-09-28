@@ -6,8 +6,6 @@ permalink: /faq/join-beta
 
 # Join Beta
 
-If you'd like to help us test beta versions of Expenses, please go to the [public link](https://testflight.apple.com/join/MQnPZMBj) and follow the instructions.
-
-In general, if you no longer wish to participate in the beta, the App Store versions of Expenses can be re-installed by downloading them from the App Store directly over the beta version.
+We're currently disabling the beta program for Expenses. We'll announce it again when we're ready to accept new beta testers.
 
 {% include faq_footer.html %}
