@@ -10,7 +10,7 @@ jobs:
     runs-on: macos-13
     timeout-minutes: 3
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: Update eurofxref
       run: ./scripts/update-eurofxref.swift ${{ secrets.FIXER_API_KEY }}
