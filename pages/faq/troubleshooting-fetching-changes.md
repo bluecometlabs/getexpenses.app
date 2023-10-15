@@ -27,10 +27,10 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 ## macOS
 
 1. Restart your Mac
-2. Go to `Preferences... (Expenses)` → `Sync`
+2. Go to `Settings... (Expenses)` (on the menu bar) → `Sync`
 3. Click `Force push all data to iCloud` to make sure your data is on iCloud
 4. Delete the app and reinstall it
-5. Go to `Preferences... (Expenses)` → `Sync`
+5. Go to `Settings... (Expenses)` (on the menu bar) → `Sync`
 6. Click `Fetch all data from iCloud`
 
 <img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="65%">

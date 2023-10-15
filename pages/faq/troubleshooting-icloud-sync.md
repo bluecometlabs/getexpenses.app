@@ -26,7 +26,7 @@ If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enabli
 
 ## macOS
 
-1. Go to `Preferences... (Expenses)` → `Sync`
+1. Go to `Settings... (Expenses)` (on the menu bar) → `Sync`
 2. Click `Force push all data to iCloud`
 3. Click `Fetch all data from iCloud`
 4. Check if the data is synced
