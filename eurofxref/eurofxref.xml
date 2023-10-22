@@ -4,27 +4,27 @@
 <gesmes:name>Expenses</gesmes:name>
 </gesmes:Sender>
 <Cube>
-<Cube time="2023-10-21">
+<Cube time="2023-10-22">
 <Cube currency="AED" rate="3.894026"/>
 <Cube currency="AFN" rate="79.788465"/>
 <Cube currency="ALL" rate="105.691473"/>
 <Cube currency="AMD" rate="425.18524"/>
 <Cube currency="ANG" rate="1.907185"/>
 <Cube currency="AOA" rate="879.410138"/>
-<Cube currency="ARS" rate="370.362637"/>
+<Cube currency="ARS" rate="370.490702"/>
 <Cube currency="AUD" rate="1.679069"/>
 <Cube currency="AWG" rate="1.908295"/>
 <Cube currency="AZN" rate="1.806487"/>
 <Cube currency="BAM" rate="1.955272"/>
 <Cube currency="BBD" rate="2.136723"/>
 <Cube currency="BDT" rate="116.678508"/>
-<Cube currency="BGN" rate="1.955272"/>
+<Cube currency="BGN" rate="1.959222"/>
 <Cube currency="BHD" rate="0.398892"/>
 <Cube currency="BIF" rate="3003.389367"/>
 <Cube currency="BMD" rate="1.060164"/>
 <Cube currency="BND" rate="1.452308"/>
 <Cube currency="BOB" rate="7.312026"/>
-<Cube currency="BRL" rate="5.359853"/>
+<Cube currency="BRL" rate="5.337006"/>
 <Cube currency="BSD" rate="1.058214"/>
 <Cube currency="BTN" rate="87.962958"/>
 <Cube currency="BWP" rate="14.556071"/>
@@ -34,7 +34,7 @@
 <Cube currency="CAD" rate="1.455658"/>
 <Cube currency="CDF" rate="2708.719034"/>
 <Cube currency="CHF" rate="0.94674"/>
-<Cube currency="CLF" rate="0.036045"/>
+<Cube currency="CLF" rate="0.036237"/>
 <Cube currency="CLP" rate="994.581556"/>
 <Cube currency="CNY" rate="7.757262"/>
 <Cube currency="COP" rate="4516.580947"/>
@@ -47,15 +47,15 @@
 <Cube currency="DKK" rate="7.468647"/>
 <Cube currency="DOP" rate="60.183756"/>
 <Cube currency="DZD" rate="145.82028"/>
-<Cube currency="EGP" rate="32.699574"/>
+<Cube currency="EGP" rate="32.721168"/>
 <Cube currency="ERN" rate="15.902458"/>
 <Cube currency="ETB" rate="58.65017"/>
 <Cube currency="FJD" rate="2.426083"/>
-<Cube currency="FKP" rate="0.872514"/>
+<Cube currency="FKP" rate="0.872457"/>
 <Cube currency="GBP" rate="0.872491"/>
 <Cube currency="GEL" rate="2.857184"/>
 <Cube currency="GHS" rate="12.455638"/>
-<Cube currency="GIP" rate="0.872514"/>
+<Cube currency="GIP" rate="0.872457"/>
 <Cube currency="GMD" rate="69.573295"/>
 <Cube currency="GNF" rate="9090.546406"/>
 <Cube currency="GTQ" rate="8.296761"/>
@@ -78,7 +78,7 @@
 <Cube currency="KGS" rate="94.694243"/>
 <Cube currency="KHR" rate="4372.819749"/>
 <Cube currency="KMF" rate="492.556152"/>
-<Cube currency="KPW" rate="954.151134"/>
+<Cube currency="KPW" rate="954.14747"/>
 <Cube currency="KRW" rate="1431.571465"/>
 <Cube currency="KWD" rate="0.327792"/>
 <Cube currency="KYD" rate="0.881862"/>
@@ -96,7 +96,7 @@
 <Cube currency="MGA" rate="4793.706149"/>
 <Cube currency="MKD" rate="61.598374"/>
 <Cube currency="MMK" rate="2222.300188"/>
-<Cube currency="MNT" rate="3670.036831"/>
+<Cube currency="MNT" rate="3661.324032"/>
 <Cube currency="MOP" rate="8.526999"/>
 <Cube currency="MRO" rate="378.478314"/>
 <Cube currency="MUR" rate="46.969227"/>
@@ -127,7 +127,7 @@
 <Cube currency="SAR" rate="3.976822"/>
 <Cube currency="SBD" rate="8.910356"/>
 <Cube currency="SCR" rate="14.036511"/>
-<Cube currency="SDG" rate="637.107617"/>
+<Cube currency="SDG" rate="635.519916"/>
 <Cube currency="SEK" rate="11.636681"/>
 <Cube currency="SGD" rate="1.456033"/>
 <Cube currency="SHP" rate="1.289955"/>
@@ -135,7 +135,7 @@
 <Cube currency="SOS" rate="604.827364"/>
 <Cube currency="SRD" rate="40.676901"/>
 <Cube currency="STD" rate="21943.251342"/>
-<Cube currency="SYP" rate="13784.144387"/>
+<Cube currency="SYP" rate="13784.077077"/>
 <Cube currency="SZL" rate="20.199548"/>
 <Cube currency="THB" rate="38.675169"/>
 <Cube currency="TJS" rate="11.614165"/>
@@ -152,8 +152,8 @@
 <Cube currency="UYU" rate="42.228602"/>
 <Cube currency="UZS" rate="12943.506468"/>
 <Cube currency="VND" rate="26016.421009"/>
-<Cube currency="VUV" rate="130.441024"/>
-<Cube currency="WST" rate="2.972469"/>
+<Cube currency="VUV" rate="129.477697"/>
+<Cube currency="WST" rate="2.972985"/>
 <Cube currency="XAF" rate="655.780001"/>
 <Cube currency="XAG" rate="0.045368"/>
 <Cube currency="XAU" rate="0.000535"/>
