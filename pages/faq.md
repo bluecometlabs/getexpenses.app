@@ -9,8 +9,8 @@ permalink: /faq/
 <div class="row">
     <div class="col-sm">
         <p><strong>Sync</strong></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-icloud-sync">Troubleshooting iCloud Sync</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/enable-icloud-sync">Enable iCloud Sync</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-icloud-sync">Troubleshooting iCloud Sync</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-fetching-changes">Troubleshooting Fetching Changes</a></p>
     </div>
     <div class="col-sm">
