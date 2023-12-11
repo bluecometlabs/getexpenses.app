@@ -20,7 +20,7 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 3. Click `Force push all data to iCloud` to make sure your data is on iCloud
 4. Delele the app and reinstall it
 5. Go to `Settings (Expenses)` → `Sync`
-6. Click `Fetch all data from iCloud`
+6. Click `Force fetch all data from iCloud`
 
 <img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
 
@@ -31,7 +31,7 @@ If you get an error saying that `Error fetching changes in zone ... :client know
 3. Click `Force push all data to iCloud` to make sure your data is on iCloud
 4. Delete the app and reinstall it
 5. Go to `Settings... (Expenses)` → `Sync`
-6. Click `Fetch all data from iCloud`
+6. Click `Force fetch all data from iCloud`
 
 <img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="65%">
 

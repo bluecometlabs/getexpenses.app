@@ -16,13 +16,13 @@ If you get an error when trying to export a sheet, please do the following troub
 ## iOS/iPadOS
 
 1. Go to `Settings (Expenses)` → `Sync`
-2. Click `Fetch all data from iCloud`
+2. Click `Force fetch all data from iCloud`
 3. Try exporting a sheet again
 
 ## macOS
 
 1. Go to `Settings... (Expenses)` → `Sync`
-2. Click `Fetch all data from iCloud`
+2. Click `Force fetch all data from iCloud`
 3. Try exporting a sheet again
 
 {% include faq_footer.html %}
