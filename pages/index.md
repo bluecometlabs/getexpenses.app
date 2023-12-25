@@ -69,7 +69,7 @@ image: /assets/expenses.png
     <div class="row justify-content-center">
         <div class="col-sm">
             <h2>And more...</h2>
-            <p>Widget, iCloud Sharing, Quick Input, Dark Mode, Quick Actions, Split View, Multiple Windows on iPadOS/macOS, Context Menus, Mouse and Trackpad support on iPadOS/macOS, Keyboard Shortcuts for iPadOS/macOS, and so forth.</p>
+            <p>Shortcuts, Widget, iCloud Sharing, Quick Input, Dark Mode, Quick Actions, Split View, Multiple Windows on iPadOS/macOS, Context Menus, Mouse and Trackpad support on iPadOS/macOS, Keyboard Shortcuts for iPadOS/macOS, and so forth.</p>
         </div>
     </div>
     <p>
