@@ -13,19 +13,19 @@ You can import transactions from Transaction Trigger via your Apple Wallet. Plea
 3. Select the "Transaction" and set up "When I tap" (Select a card to trigger an automation whenever it’s tapped)
 4. Tap the "Next" and add "Import transaction" action from Exepnses
 
-    <img src="../../assets/faq/import-transaction-from-wallet/add-action.jpg" width="40%">
+    <img src="../../assets/faq/import-transaction-from-wallet/add-action.jpg" width="80%">
 
 5. Edit "Amount" (Text) and add "Shortcut Input" from the "Variables" section
 
-    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input.jpg" width="40%">
+    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input.jpg" width="80%">
 
 6. Tap the "Shortcut Input" and select "Amount" from the input list
 
-    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-amount.jpg" width="40%">
+    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-amount.jpg" width="80%">
 
 7. Edit other parameters if needed (E.g., add "Marchant" from the "Shortcut Input" section to the Notes field)
 
-    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-params.jpg" width="40%">
+    <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-params.jpg" width="80%">
 
 8. Tap the "Done" button to create the automation
 
