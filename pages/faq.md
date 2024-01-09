@@ -42,6 +42,7 @@ permalink: /faq/
 <div class="row">
     <div class="col-sm">
         <p><strong>Shortcuts</strong></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/add-expense-from-apple-watch">Add expense from Apple Watch</p>
         <p>{% include icons/file-text.html %}<a href="/faq/import-transaction-from-wallet">Import transaction from Wallet</a></p>
     </div>
         <div class="col-sm">
