@@ -13,7 +13,7 @@ image: /assets/expenses.png
     <h1>Expenses</h1>
     <p><b>Expenses</b> has been crafted to <b>keep track of your spending effortlessly</b>, with useful features in a
         simple, intuitive interface. And with iCloud, it’s easy to <b>keep all your expenses in sync </b>across your
-        devices and <b>collaborate with others</b> using sharing. The apps are available on Mac, iPhone, iPad, and Apple Vision Pro.</p>
+        devices and <b>collaborate with others</b> using sharing. The apps are available on Mac, iPhone, iPad, and Apple Vision.</p>
     <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <picture>
             <source srcset="../assets/app-store-badge-dark.svg" media="(prefers-color-scheme: dark)">
@@ -69,7 +69,7 @@ image: /assets/expenses.png
     <div class="row justify-content-center">
         <div class="col-sm">
             <h2>And more...</h2>
-            <p>Shortcuts, Widget, iCloud Sharing, Quick Input, Dark Mode, Quick Actions, Split View, Multiple Windows on iPadOS/macOS, Context Menus, Mouse and Trackpad support on iPadOS/macOS, Keyboard Shortcuts for iPadOS/macOS, and so forth.</p>
+            <p>Shortcuts, Widget, iCloud Sharing, Quick Input, Dark Mode, Quick Actions, Split View, Multiple Windows, Context Menus, Mouse and Trackpad support, Keyboard Shortcuts, and so forth.</p>
         </div>
     </div>
     <p>
