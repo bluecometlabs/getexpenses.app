@@ -6,7 +6,7 @@ permalink: /contact/
 
 # Contact
 
-Any feedback and suggestions are welcome. We will try to read every tweet and email. If it's a question, please check the [FAQs](/faq/) before you contact us.
+Any feedback and suggestions are welcome. We will try to read every tweet and email. We usually respond within a day or two, depending on the time zone difference (our time zone is UTC +9). If it's a question, please check the [FAQs](/faq/) before you contact us.
 
 - [contact@bluecometlabs.com](mailto:contact@bluecometlabs.com) for feedback, suggestions, and bug reports
 - [@expensesapp]({{ site.links.twitter }}) on Twitter
