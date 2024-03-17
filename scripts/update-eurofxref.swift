@@ -2,260 +2,146 @@
 
 import Foundation
 
-struct ReferenceRatesRef: Decodable {
+struct ReferenceRate: Decodable, Comparable {
+    var rate: Double
+    var source: String
+    var target: String
+    var time: String
+
+    static func < (lhs: ReferenceRate, rhs: ReferenceRate) -> Bool {
+        return lhs.target < rhs.target
+    }
+}
+
+var referenceRates: [ReferenceRate] = []
+var time = ""
+let base = "EUR"
+
+let supportedCurrencies = try {
+    let filePath = FileManager.default.currentDirectoryPath + "/scripts/currencies.json"
+    let data = try Data(contentsOf: URL(fileURLWithPath: filePath))
+    return try JSONDecoder().decode([String].self, from: data).filter { $0 != base }.sorted()
+}()
+
+// Wise API
+do {
+    let url = "https://api.wise.com/v1/rates?source=\(base)"
+    let apiKey = CommandLine.arguments[1]
+    let nonISOCurrencies = ["GGP", "IMP", "JEP"]
+
+    var request = URLRequest(url: URL(string: url)!, timeoutInterval: Double.infinity)
+    request.httpMethod = "GET"
+    request.addValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
+    let (data, response) = try await URLSession.shared.data(for: request)
+
+    guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+        print("Error: \(String(describing: response))")
+        exit(1)
+    }
+
+    let rates = try JSONDecoder().decode([ReferenceRate].self, from: data)
+        .filter { !nonISOCurrencies.contains($0.target) }
+
+    print("Wise: \(rates.count) reference rates")
+    referenceRates.append(contentsOf: rates)
+    // E.g. 2024-01-01
+    time = String(rates[0].time.prefix(10))
+} catch {
+    print(String(describing: error))
+    exit(1)
+}
+
+// Fixer API (maintain the backward compatibility)
+struct FixerReferenceRates: Decodable {
     var base: String
     var date: String
     var rates: [String: Double]
 }
 
-let symbols = [
-    "AED", // United Arab Emirates Dirham
-    "AFN", // Afghan Afghani
-    "ALL", // Albanian Lek
-    "AMD", // Armenian Dram
-    "ANG", // Netherlands Antillean Guilder
-    "AOA", // Angolan Kwanza
-    "ARS", // Argentine Peso
-    "AUD", // Australian Dollar
-    "AWG", // Aruban Florin
-    "AZN", // Azerbaijani Manat
-    "BAM", // Bosnia-Herzegovina Convertible Mark
-    "BBD", // Barbadian Dollar
-    "BDT", // Bangladeshi Taka
-    "BGN", // Bulgarian Lev
-    "BHD", // Bahraini Dinar
-    "BIF", // Burundian Franc
-    "BMD", // Bermudian Dollar
-    "BND", // Brunei Dollar
-    "BOB", // Bolivian Boliviano
-    "BRL", // Brazilian Real
-    "BSD", // Bahamian Dollar
-    "BTN", // Bhutanese Ngultrum
-    "BWP", // Botswanan Pula
-    "BYN", // Belarusian Ruble
-    "BYR", // Belarusian Ruble (old code)
-    "BZD", // Belize Dollar
-    "CAD", // Canadian Dollar
-    "CDF", // Congolese Franc
-    "CHF", // Swiss Franc
-    "CLF", // Chilean Unit of Account (UF)
-    "CLP", // Chilean Peso
-    "CNY", // Chinese Yuan
-    "COP", // Colombian Peso
-    "CRC", // Costa Rican Colón
-    "CUC", // Cuban Convertible Peso
-    "CUP", // Cuban Peso
-    "CVE", // Cape Verdean Escudo
-    "CZK", // Czech Republic Koruna
-    "DJF", // Djiboutian Franc
-    "DKK", // Danish Krone
-    "DOP", // Dominican Peso
-    "DZD", // Algerian Dinar
-    "EGP", // Egyptian Pound
-    "ERN", // Eritrean Nakfa
-    "ETB", // Ethiopian Birr
-    "FJD", // Fijian Dollar
-    "FKP", // Falkland Islands Pound
-    "GBP", // British Pound Sterling
-    "GEL", // Georgian Lari
-    "GHS", // Ghanaian Cedi
-    "GIP", // Gibraltar Pound
-    "GMD", // Gambian Dalasi
-    "GNF", // Guinean Franc
-    "GTQ", // Guatemalan Quetzal
-    "GYD", // Guyanaese Dollar
-    "HKD", // Hong Kong Dollar
-    "HNL", // Honduran Lempira
-    "HRK", // Croatian Kuna
-    "HTG", // Haitian Gourde
-    "HUF", // Hungarian Forint
-    "IDR", // Indonesian Rupiah
-    "ILS", // Israeli New Shekel
-    "INR", // Indian Rupee
-    "IQD", // Iraqi Dinar
-    "IRR", // Iranian Rial
-    "ISK", // Icelandic Króna
-    "JMD", // Jamaican Dollar
-    "JOD", // Jordanian Dinar
-    "JPY", // Japanese Yen
-    "KES", // Kenyan Shilling
-    "KGS", // Kyrgystani Som
-    "KHR", // Cambodian Riel
-    "KMF", // Comorian Franc
-    "KPW", // North Korean Won
-    "KRW", // South Korean Won
-    "KWD", // Kuwaiti Dinar
-    "KYD", // Cayman Islands Dollar
-    "KZT", // Kazakhstani Tenge
-    "LAK", // Laotian Kip
-    "LBP", // Lebanese Pound
-    "LKR", // Sri Lankan Rupee
-    "LRD", // Liberian Dollar
-    "LSL", // Lesotho Loti
-    "LTL", // Lithuanian Litas
-    "LVL", // Latvian Lats
-    "LYD", // Libyan Dinar
-    "MAD", // Moroccan Dirham
-    "MDL", // Moldovan Leu
-    "MGA", // Malagasy Ariary
-    "MKD", // Macedonian Denar
-    "MMK", // Myanma Kyat
-    "MNT", // Mongolian Tugrik
-    "MOP", // Macanese Pataca
-    "MUR", // Mauritian Rupee
-    "MVR", // Maldivian Rufiyaa
-    "MWK", // Malawian Kwacha
-    "MXN", // Mexican Peso
-    "MYR", // Malaysian Ringgit
-    "MZN", // Mozambican Metical
-    "NAD", // Namibian Dollar
-    "NGN", // Nigerian Naira
-    "NIO", // Nicaraguan Córdoba
-    "NOK", // Norwegian Krone
-    "NPR", // Nepalese Rupee
-    "NZD", // New Zealand Dollar
-    "OMR", // Omani Rial
-    "PAB", // Panamanian Balboa
-    "PEN", // Peruvian Nuevo Sol
-    "PGK", // Papua New Guinean Kina
-    "PHP", // Philippine Peso
-    "PKR", // Pakistani Rupee
-    "PLN", // Polish Złoty
-    "PYG", // Paraguayan Guarani
-    "QAR", // Qatari Rial
-    "RON", // Romanian Leu
-    "RSD", // Serbian Dinar
-    "RUB", // Russian Ruble
-    "RWF", // Rwandan Franc
-    "SAR", // Saudi Riyal
-    "SBD", // Solomon Islands Dollar
-    "SCR", // Seychellois Rupee
-    "SDG", // Sudanese Pound
-    "SEK", // Swedish Krona
-    "SGD", // Singapore Dollar
-    "SHP", // Saint Helena Pound
-    "SLL", // Sierra Leonean Leone
-    "SOS", // Somali Shilling
-    "SRD", // Surinamese Dollar
-    "STD", // São Tomé and Príncipe Dobra
-    "SYP", // Syrian Pound
-    "SZL", // Swazi Lilangeni
-    "THB", // Thai Baht
-    "TJS", // Tajikistani Somoni
-    "TMT", // Turkmenistani Manat
-    "TND", // Tunisian Dinar
-    "TOP", // Tongan Paʻanga
-    "TRY", // Turkish Lira
-    "TTD", // Trinidad and Tobago Dollar
-    "TWD", // New Taiwan Dollar
-    "TZS", // Tanzanian Shilling
-    "UAH", // Ukrainian Hryvnia
-    "UGX", // Ugandan Shilling
-    "USD", // United States Dollar
-    "UYU", // Uruguayan Peso
-    "UZS", // Uzbekistan Som
-    "VND", // Vietnamese Đồng
-    "VUV", // Vanuatu Vatu
-    "WST", // Samoan Tala
-    "XAF", // Central African CFA Franc
-    "XAG", // Silver Ounce
-    "XAU", // Gold Ounce
-    "XCD", // East Caribbean Dollar
-    "XDR", // Special Drawing Rights
-    "XOF", // West African CFA Franc
-    "XPF", // CFP Franc
-    "YER", // Yemeni Rial
-    "ZAR", // South African Rand
-    "ZMK", // Zambian Kwacha (pre-2013)
-    "ZMW", // Zambian Kwacha
-    "ZWL"  // Zimbabwean Dollar
-].sorted()
-
-let base = "EUR"
-let expectedNumberOfCurrencyCodes = symbols.count
-let url = "https://api.apilayer.com/fixer/latest?base=\(base)&symbols=\(symbols.joined(separator: ","))"
-let apiKey = CommandLine.arguments[1]
-
-var request = URLRequest(url: URL(string: url)!,timeoutInterval: Double.infinity)
-request.httpMethod = "GET"
-request.addValue(apiKey, forHTTPHeaderField: "apikey")
-
-var semaphore = DispatchSemaphore (value: 0)
-
-let task = URLSession.shared.dataTask(with: request) { data, response, error in
-    guard let data = data else {
-        print(String(describing: error))
-        return
-    }
-
+if CommandLine.arguments.count > 2 {
     do {
-        let referenceRatesRef = try JSONDecoder().decode(ReferenceRatesRef.self, from: data)
-        updateEurofxrefFile(referenceRatesRef: referenceRatesRef)
+        let symbols = ["BYR", "CLF", "LTL", "LVL", "STD", "XAG", "XAU", "XDR", "ZMK"]
+        let url = "https://api.apilayer.com/fixer/latest?base=\(base)&symbols=\(symbols.joined(separator: ","))"
+        let apiKey = CommandLine.arguments[2]
 
-        let numberOfCurrencyCodes = referenceRatesRef.rates.count
-        print("Number of currency codes: \(numberOfCurrencyCodes)/\(expectedNumberOfCurrencyCodes)")
+        var request = URLRequest(url: URL(string: url)!, timeoutInterval: Double.infinity)
+        request.httpMethod = "GET"
+        request.addValue(apiKey, forHTTPHeaderField: "apikey")
+        let (data, response) = try await URLSession.shared.data(for: request)
 
-        if numberOfCurrencyCodes != expectedNumberOfCurrencyCodes {
-            let currencyCodes = referenceRatesRef.rates.map { $0.0 }.sorted()
-            let expectedCurrencyCodes = symbols
-            let diff = currencyCodes.difference(from: expectedCurrencyCodes)
-            fatalError("Error: number of currency codes does not match [\(diff.joined(separator: ", "))]")
+        guard let httpResponse = response as? HTTPURLResponse, (200...299).contains(httpResponse.statusCode) else {
+            print("Error: \(String(describing: response))")
+            exit(1)
         }
+
+        let fixerReferenceRates = try JSONDecoder().decode(FixerReferenceRates.self, from: data)
+        let rates = fixerReferenceRates.rates.map {
+            ReferenceRate(rate: $0.value, source: fixerReferenceRates.base, target: $0.key, time: fixerReferenceRates.date)
+        }
+
+        print("Fixer: \(rates.count) reference rates")
+        referenceRates.append(contentsOf: rates)
     } catch {
         print(String(describing: error))
+        exit(1)
     }
-
-    semaphore.signal()
 }
 
-task.resume()
-semaphore.wait()
+let sortedReferenceRates = referenceRates.sorted()
+print("Total: \(sortedReferenceRates.count) reference rates")
 
-func updateEurofxrefFile(referenceRatesRef: ReferenceRatesRef) {
-    let rates: String = {
-        var result = ""
-        let sortedRates = referenceRatesRef.rates
-            .filter { $0.key != base }
-            .filter { Locale.Currency.isoCurrencies.map(\.identifier).contains($0.key)  }
-            .sorted { $0.key < $1.key }
-        for (index, rate) in sortedRates.enumerated() {
-            // E.g., <Cube currency="USD" rate="1.0163"/>
-            if index == sortedRates.endIndex - 1 {
-                result += "<Cube currency=\"\(rate.key)\" rate=\"\(rate.value)\"/>"
-            } else {
-                result += "<Cube currency=\"\(rate.key)\" rate=\"\(rate.value)\"/>\n"
-            }
+// Check if all currencies are supported
+let unsupportedCurrencies = sortedReferenceRates.filter { !supportedCurrencies.contains($0.target) }
+if !unsupportedCurrencies.isEmpty {
+    print("Error: \(unsupportedCurrencies.map(\.target)) are not supported.")
+    exit(1)
+}
+
+// Check if any currency is missing
+let missingCurrencies = supportedCurrencies.filter { !sortedReferenceRates.map(\.target).contains($0) }
+if !missingCurrencies.isEmpty {
+    print("Error: \(missingCurrencies) are missing.")
+    exit(1)
+}
+
+// Check if all currency codes are valid
+let invalidCurrencies = sortedReferenceRates.filter { !Locale.Currency.isoCurrencies.map(\.identifier).contains($0.target) }
+if !invalidCurrencies.isEmpty {
+    print("Error: \(invalidCurrencies.map(\.target)) are not valid currency codes.")
+    exit(1)
+}
+
+let rates: String = {
+    var result = ""
+    for (index, referenceRate) in sortedReferenceRates.enumerated() {
+        // E.g., <Cube currency="USD" rate="1.0163"/>
+        if index == sortedReferenceRates.endIndex - 1 {
+            result += "<Cube currency=\"\(referenceRate.target)\" rate=\"\(referenceRate.rate)\"/>"
+        } else {
+            result += "<Cube currency=\"\(referenceRate.target)\" rate=\"\(referenceRate.rate)\"/>\n"
         }
-        return result
-    }()
-
-    let contents = """
-    <gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="https://getexpenses.app/eurofxref">
-    <gesmes:subject>Reference rates</gesmes:subject>
-    <gesmes:Sender>
-    <gesmes:name>Expenses</gesmes:name>
-    </gesmes:Sender>
-    <Cube>
-    <Cube time="\(referenceRatesRef.date)">
-    \(rates)
-    </Cube>
-    </Cube>
-    </gesmes:Envelope>
-    """.data(using: .utf8)!
-
-    let filePath = FileManager.default.currentDirectoryPath + "/eurofxref/eurofxref.xml"
-
-    if FileManager.default.createFile(atPath: filePath, contents: contents, attributes: nil) {
-        print("File updated successfully.")
-    } else {
-        print("File not updated.")
     }
-}
+    return result
+}()
 
-extension Array where Element: Hashable {
-    func difference(from other: [Element]) -> [Element] {
-        let thisSet = Set(self)
-        let otherSet = Set(other)
-        return Array(thisSet.symmetricDifference(otherSet))
-    }
+let contents = """
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="https://getexpenses.app/eurofxref">
+<gesmes:subject>Reference rates</gesmes:subject>
+<gesmes:Sender>
+<gesmes:name>Expenses</gesmes:name>
+</gesmes:Sender>
+<Cube>
+<Cube time="\(time)">
+\(rates)
+</Cube>
+</Cube>
+</gesmes:Envelope>
+""".data(using: .utf8)!
+
+let filePath = FileManager.default.currentDirectoryPath + "/eurofxref/eurofxref.xml"
+
+if FileManager.default.createFile(atPath: filePath, contents: contents, attributes: nil) {
+    print("\nFile updated successfully.")
+} else {
+    print("\nFile not updated.")
 }
