@@ -2,7 +2,7 @@
 
 [![jekyll build](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml/badge.svg)](https://github.com/pixyzehn/getexpenses.app/actions/workflows/build.yml)
 
-[Euro foreign exchange reference rates](/eurofxref) are updated every day via [Fixer.io](https://fixer.io).
+[Euro foreign exchange reference rates](/eurofxref) are updated every day via [Wise API](https://docs.wise.com/api-docs) and [Fixer.io](https://fixer.io).
 
 [Releases](https://github.com/pixyzehn/getexpenses.app/releases) are published only when the press kit needs to be updated as the download URL refers to the latest release.
 
