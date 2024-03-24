@@ -8,7 +8,7 @@ image: /assets/expenses.png
 <div class="text-center">
     <picture>
       <source srcset="../assets/expenses-dark.png" width="100%" media="(prefers-color-scheme: dark)">
-      <img alt="Expenses" src="../assets/expenses.png" width="100%">
+      <img alt="Expenses" src="../assets/expenses-light.png" width="100%">
     </picture>
     <h1>Expenses</h1>
     <p><b>Expenses</b> has been crafted to <b>keep track of your spending effortlessly</b>, with useful features in a
