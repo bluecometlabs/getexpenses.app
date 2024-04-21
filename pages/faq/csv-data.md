@@ -10,7 +10,7 @@ You can import your data from a CSV file. The CSV file should have the following
 
 - `Date` (String) [yyyy-MM-dd]
 - `Category` (String)
-- `Price` (Double)
+- `Price` (Double) [`-`: expense, `+`: income]
 - `Notes` (String)
 
 Example:
