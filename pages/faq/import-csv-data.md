@@ -1,10 +1,13 @@
 ---
 layout: default
 title: CSV data
-permalink: /faq/csv-data
+permalink: /faq/import-csv-data
 ---
 
-# CSV data to import data
+# Import CSV data
+
+> Note: Import your data from a CSV file is available on version 3.4.16 and later.  
+> It's also only available on iOS 16.0/macOS 13.0 and later.
 
 You can import your data from a CSV file. The CSV file should have the following columns:
 

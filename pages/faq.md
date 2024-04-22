@@ -46,7 +46,8 @@ permalink: /faq/
         <p>{% include icons/file-text.html %}<a href="/faq/import-transaction-from-wallet">Import transaction from Wallet</a></p>
     </div>
         <div class="col-sm">
-        <p><strong>Export</strong></p>
+        <p><strong>Import & Export</strong></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/import-csv-data">Import CSV data</a></p> 
         <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-export">Troubleshooting Export</a></p>
     </div>
 </div>
