@@ -49,6 +49,7 @@ permalink: /faq/
         <p><strong>Import & Export</strong></p>
         <p>{% include icons/file-text.html %}<a href="/faq/import-csv-data">Import CSV data</a></p> 
         <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-export">Troubleshooting Export</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/export-sheet-as-pdf">Export sheet as PDF</a></p> 
     </div>
 </div>
 
