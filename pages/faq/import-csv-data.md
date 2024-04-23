@@ -19,6 +19,14 @@ You can import your data from a CSV file. The CSV file should have the following
 Example:
 
 ```
+Date,Category,Price,Notes
+2024-03-31,Groceries,-1000.0,Supermarket
+2024-03-30,Budget,2500.0,,
+2024-03-29,Transport,-300.0,Bus
+...
+```
+
+```
 ┏━━━━┳━━━━━━━━━━━━┳━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━━━━━┓
 ┃    ┃ Date       ┃ Category    ┃ Price         ┃ Notes             ┃
 ┡━━━━╇━━━━━━━━━━━━╇━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━━━━━┩
