@@ -15,6 +15,7 @@ permalink: /faq/
         <p>{% include icons/file-text.html %}<a href="/faq/passcode-lock">Passcode Lock</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/transfer-money">Transfer Money</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/pending">Pending</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/time-zone-support">Time Zone Support</a></p>
     </div>
     <div class="col-sm">
         <p><strong>Sync</strong></p>
