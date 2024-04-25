@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Export sheet as PDF
+title: Export Sheet as PDF
 permalink: /faq/export-sheet-as-pdf
 ---
 
-# Export sheet as PDF
+# Export Sheet as PDF
 
 You can export your sheet as a PDF file. To do this, follow these steps:
 

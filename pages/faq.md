@@ -43,14 +43,14 @@ permalink: /faq/
 <div class="row">
     <div class="col-sm">
         <p><strong>Shortcuts</strong></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/add-expense-from-apple-watch">Add expense from Apple Watch</a></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/import-transaction-from-wallet">Import transaction from Wallet</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/add-expense-from-apple-watch">Add Expense from Apple Watch</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/import-transaction-from-wallet">Import Transaction from Wallet</a></p>
     </div>
         <div class="col-sm">
         <p><strong>Import & Export</strong></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/import-csv-data">Import CSV data</a></p> 
+        <p>{% include icons/file-text.html %}<a href="/faq/import-csv-data">Import CSV Data</a></p> 
         <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-export">Troubleshooting Export</a></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/export-sheet-as-pdf">Export sheet as PDF</a></p> 
+        <p>{% include icons/file-text.html %}<a href="/faq/export-sheet-as-pdf">Export Sheet as PDF</a></p> 
     </div>
 </div>
 

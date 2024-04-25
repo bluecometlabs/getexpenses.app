@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Add expense from Apple Watch
+title: Add Expense from Apple Watch
 permalink: /faq/add-expense-from-apple-watch
 ---
 
-# Add expense from Apple Watch
+# Add Expense from Apple Watch
 
 The shortcuts from Expenses are compatible with Apple Watch, so you can add an expense from your Apple Watch.
 

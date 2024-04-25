@@ -1,10 +1,10 @@
 ---
 layout: default
-title: CSV data
+title: Import CSV Data
 permalink: /faq/import-csv-data
 ---
 
-# Import CSV data
+# Import CSV Data
 
 > Note: Import your data from a CSV file is available on version 3.5.0 and later.  
 > It's also only available on iOS 16.0/macOS 13.0 and later.
