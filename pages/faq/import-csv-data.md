@@ -12,7 +12,7 @@ permalink: /faq/import-csv-data
 You can import your data from a CSV file. The CSV file should have the following columns:
 
 - `Date` (String) [`yyyy-MM-dd`, `yyyy-MM-dd HH:mm:ssZ`, or `yyyy-MM-dd'T'HH:mm:ssZ`]
-- `Category` (String)
+- `Category` (String) [If not found, it will be default to `No Category` or the first category you have in the app]
 - `Price` (Double) [`-`: expense, `+`: income]
 - `Notes` (String)
 
