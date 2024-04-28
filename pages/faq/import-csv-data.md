@@ -11,10 +11,17 @@ permalink: /faq/import-csv-data
 
 You can import your data from a CSV file. The CSV file should have the following columns:
 
-- `Date` (String) [`yyyy-MM-dd`, `yyyy-MM-dd HH:mm:ssZ`, or `yyyy-MM-dd'T'HH:mm:ssZ`]
-- `Category` (String) [If not found, it will be default to `No Category` or the first category you have in the app]
-- `Price` (Double) [`-`: expense, `+`: income]
-- `Notes` (String)
+- `Date` (String)  
+`yyyy-MM-dd`, `yyyy-MM-dd HH:mm:ssZ`, or `yyyy-MM-dd'T'HH:mm:ssZ` format.
+
+- `Category` (String)  
+If not found, it will be default to `No Category` or the first category you have in the app.
+
+- `Price` (Double)  
+`-`: expense, `+`: income. If you need to use `,` as a decimal separator, you need wrap the value with double quotes like `"-12,34"`.
+
+- `Notes` (String)  
+The default value is an empty string.
 
 Example:
 
