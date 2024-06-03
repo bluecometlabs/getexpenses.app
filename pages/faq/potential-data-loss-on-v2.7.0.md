@@ -17,7 +17,7 @@ We've found a potential data loss issue only when updating the app to v2.7.0 fro
 
 If you don't any sheets that you had previously, you might be able to restore your data by removing broken new data store. Please follow the steps below:
 
-> If you alread purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
+> If you already purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
 
 1. Update Expenses to Version 2.7.9 or higher versions
 2. Go to the app's settings and see if you can see "Restore" at the top
