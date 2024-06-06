@@ -18,7 +18,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 - Update to the latest version of the app
 - Make sure that you have enough storage space in iCloud on your device
-- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
+- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enable-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
 
 <img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
@@ -27,7 +27,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 - Update to the latest version of the app
 - Make sure that You have enough storage space in iCloud
-- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enabling-icloud-sync))
+- Make sure that you enable iCloud Sync (See also [Enabling iCloud Sync](/faq/enable-icloud-sync))
 - Try force push all data to iCloud in Sync, and then try force fetch all data from iCloud
 
 <img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="40%">

@@ -8,7 +8,7 @@ permalink: /faq/troubleshooting-icloud-sync
 
 First, please make sure that you use the same iCloud account on both iOS/iPadOS and macOS and have enough iCloud storage on both. Also, please ensure that you use the latest version of the app. If it still doesn't work, please do the following troubleshooting.
 
-If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enabling-icloud-sync).
+If you can't enable iCloud Sync, please check [Enabling iCloud Sync](/faq/enable-icloud-sync).
 
 - [iOS/iPadOS](#iosipados)
 - [macOS](#macos)
