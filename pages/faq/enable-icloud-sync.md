@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Enabling iCloud Sync
+title: Enable iCloud Sync
 permalink: /faq/enable-icloud-sync
 ---
 
