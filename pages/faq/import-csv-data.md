@@ -6,8 +6,7 @@ permalink: /faq/import-csv-data
 
 # Import CSV Data
 
-> Note: Import your data from a CSV file is available on version 3.5.0 and later.  
-> It's also only available on iOS 16.0/macOS 13.0 and later.
+> Note: Import your data from a CSV file is only available on iOS 16.0/macOS 13.0 and later.
 
 You can import your data from a CSV file. The CSV file should have the following columns:
 
