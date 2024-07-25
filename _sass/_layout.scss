@@ -51,7 +51,7 @@
 .site-footer {
   background: var(--background-color);
   a {
-    color: $primary-content-color;
+    color: var(--secondary-text-color) !important;
   }
   ul, ol {
     margin-left: 0;
