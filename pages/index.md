@@ -63,13 +63,13 @@ image: /assets/expenses.png
         </div>
         <div class="col-sm">
             <h2>All currencies</h2>
-            <p>The app supports all currencies you may need especially when traveling. It also supports automatically updated currency rates for major currencies.</p>
+            <p>The app supports all currencies you may need especially when traveling. It also supports customizable currency rates for major currencies.</p>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-sm">
             <h2>And more...</h2>
-            <p>Shortcuts, Widget, iCloud Sharing, Quick Input, Dark Mode, Quick Actions, Split View, Multiple Windows, Context Menus, Mouse and Trackpad support, Keyboard Shortcuts, and so forth.</p>
+            <p>Shortcuts, Widget, iCloud Sharing, Dark Mode, Multiple Windows, and so forth.</p>
         </div>
     </div>
 </div>
