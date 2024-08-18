@@ -73,27 +73,3 @@ image: /assets/expenses.png
         </div>
     </div>
 </div>
-
-<div class="text-center my-3">
-    <h3>Here’s what users are saying...</h3>
-    <div class="row">
-        <div class="col-sm">
-            <p>"Lots to commend. Well designed, works wonderfully, simple and still powerful. [...] It has the look and feel of a native Apple app and isn't intrustive or dominating in its functionality. Great tools, good support, simple and beautiful."</p>
-            <cite><i>- Bobbywastaken</i></cite>
-        </div>
-        <div class="col-sm">
-            <p>"This is the simplest, no nonsense, best expense tracking app I have found. [...] The developer is super active in resolving your queries and is always ready for trying and incorporate user's voice/suggestions."</p>
-            <cite><i>- AmarBanga</i></cite>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm">
-            <p>"this app is the best one i have ever tried. i have tried several expenses tracker apps and this is the most systematic and convenient one, bonus for it being minimalist and elegant looking!"</p>
-            <cite>- itshabel</cite>
-        </div>
-        <div class="col-sm">
-            <p>"I have used almost every expense tracker out there before stumbling on to this app. This is the best out there. Simple to use, great UI and even greater support."</p>
-            <cite>- mitul03</cite>
-        </div>
-    </div>
-</div>
