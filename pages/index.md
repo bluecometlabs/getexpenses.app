@@ -27,6 +27,14 @@ image: /assets/expenses.png
         </picture>
     </a>
     <p>
+    <a href="https://appsforapplevision.com/apps-directory/expenses-spending-tracker" target="_blank">
+        <picture>
+            <source srcset="https://appsforapplevision.com/images/badges/a4avp-featured-badge-light.png" alt="Apps For Apple Vision Badge" width=300 height=70 media="(prefers-color-scheme: dark)">
+            <img src="https://appsforapplevision.com/images/badges/a4avp-featured-badge-dark.png" alt="Apps For Apple Vision Badge" width=300 height=70>
+        </picture>
+    </a>
+    </p>
+    <p>
         <a href="https://www.producthunt.com/posts/expenses-spending-tracker?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-expenses-spending-tracker" target="_blank">
             <picture>
                 <source srcset="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=202478&theme=dark" alt="Expenses: Spending Tracker - Keep track of your spending effortlessly. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" media="(prefers-color-scheme: dark)">
