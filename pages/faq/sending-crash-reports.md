@@ -15,7 +15,7 @@ If we can't find any crash reports, the best way would be to send us crash repor
 
 ## iOS/iPadOS
 
-1. Open the Analytics & Improvements section (in Settings > Privacy & Security) on the device. See [Share analytics, diagnostics, and usage information with Apple](https://support.apple.com/en-us/HT202100)
+1. Open the Analytics & Improvements section (in Settings > Privacy & Security) on the device. See [ Share analytics, diagnostics, and usage information with Apple](https://support.apple.com/en-us/HT202100)
 2. Tap Analytics Data
 3. Locate the log for Expenses. The log name starts with `Expenses_<DateTime>` for crash reports, or `JetsamEvent_<DateTime>` for high-memory use crashes
 4. Select the desired log

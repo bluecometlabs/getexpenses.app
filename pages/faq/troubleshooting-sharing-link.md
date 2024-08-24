@@ -9,10 +9,10 @@ permalink: /faq/troubleshooting-sharing-link
 If you can't get a sharing link (e.g., nothing happens when trying to generate the link) when you try to share the link with others, please check the following:
 
 - Make sure you turn on iCloud Drive (See also [Enable iCloud Sync](/faq/enable-icloud-sync))
-- Make sure everyone has enough iCloud storage
+- Make sure everyone has enough iCloud storage ([ Manage your iCloud storage](https://support.apple.com/en-us/108922))
 - Make sure the email you're trying to invite is the email of their iCloud account
 - Make sure you both already purchased "Expenses Pro"
-- Update the latest version of iOS/macOS
+- Update the latest version of iOS/iPadOS/macOS ([ Update your iPhone or iPad](https://support.apple.com/en-us/118575) / [ Update macOS on Mac](https://support.apple.com/en-us/108382))
 - Use Messages app from Apple so that opening the link will take you to the Expenses app automatically
 
     <table>

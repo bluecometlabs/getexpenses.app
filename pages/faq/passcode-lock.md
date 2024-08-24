@@ -33,6 +33,6 @@ You will be asked to enter a passcode. After that, you will be asked to confirm 
     </tr>
 </table>
 
-Note that you won't be asked to enter the passcode when the app is running in the background. To enable it, make sure that you close the app. For more information, see [iOS: How to close an app](https://support.apple.com/en-us/HT201330).
+Note that you won't be asked to enter the passcode when the app is running in the background. To enable it, make sure that you close the app. For more information, see [ How to close an app](https://support.apple.com/en-us/HT201330).
 
 {% include faq_footer.html %}

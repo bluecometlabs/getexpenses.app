@@ -35,6 +35,6 @@ If you can't enable iCloud Sync, please check [Enable iCloud Sync](/faq/enable-i
 
 <img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="65%">
 
-Sometimes, there is something wrong with the Apple System. Please also check [the status page](https://www.apple.com/support/systemstatus/) just in case.
+Sometimes, there is something wrong with the Apple System. Please also check [ the status page](https://www.apple.com/support/systemstatus/) just in case.
 
 {% include faq_footer.html %}

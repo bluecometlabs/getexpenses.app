@@ -32,7 +32,7 @@ Run the following command (if you use Setapp replace `com.pixyzehn.Expenses` wit
 defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
 ```
 
-If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
+If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [ About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
 *Updated on October 3, 2022*
 
