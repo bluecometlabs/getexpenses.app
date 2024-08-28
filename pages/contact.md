@@ -24,7 +24,7 @@ setInterval(updateTime, 1000);
 
 # Contact
 
-Any feedback and suggestions are welcome. We will read every tweet and email. We usually respond within a day or two, depending on the time zone difference. If you have a question, please check the [FAQs](/faq/) before you contact us.
+Any feedback and suggestions are welcome. We will read every tweet and email. We typically respond within one to two days, depending on the time zone difference. If you have a question, please check the [FAQs](/faq/) before you contact us.
 
 Our time zone is UTC+9, where it's currently <strong><span id="currentTime"></span></strong>.
 
