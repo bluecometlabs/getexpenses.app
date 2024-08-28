@@ -13,4 +13,4 @@ Press Kit includes the following resources:
 - Logos
 - Product images
 
-Download [here](https://github.com/pixyzehn/getexpenses.app/releases/latest/download/presskit.zip). Want to review or cover Expenses? <a href="/contact/">Contact us</a> for interview requests, product demos, and more.
+Download [here](https://github.com/bluecometlabs/getexpenses.app/releases/latest/download/presskit.zip). Want to review or cover Expenses? <a href="/contact/">Contact us</a> for interview requests, product demos, and more.
