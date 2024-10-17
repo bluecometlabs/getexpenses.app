@@ -14,6 +14,8 @@ If you can't get a sharing link (e.g., nothing happens when trying to generate t
 - Make sure you both already purchased "Expenses Pro"
 - Update the latest version of iOS/iPadOS/macOS ([ Update your iPhone or iPad](https://support.apple.com/en-us/118575) / [ Update macOS on Mac](https://support.apple.com/en-us/108382))
 - Use Messages app from Apple so that opening the link will take you to the Expenses app automatically
+- On macOS Sequoia 15.0 or later, there is a known issue that the link is not shown properly when using Messages app. Please use other options (e.g., Mail app) instead or do so on iOS/iPadOS
+- On macOS Sequoia 15.0 or later, there is a known issue that tapping Invite with Link crashes the app. Please use other options (e.g., Mail app) instead or do so from iOS/iPadOS 
 
     <table>
         <tr>
