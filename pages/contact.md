@@ -29,7 +29,7 @@ Any feedback and suggestions are welcome. We will read every tweet and email. We
 Our time zone is UTC+9, where it's currently <strong><span id="currentTime"></span></strong>.
 
 - [contact@bluecometlabs.com](mailto:contact@bluecometlabs.com) for feedback, suggestions, and bug reports
-- [@expensesapp]({{ site.links.twitter }}) on Twitter
+- [@expensesapp]({{ site.links.twitter }}) on X/Twitter
 - [@expenses]({{ site.links.mastodon }}) on Mastodon
 
 Please note that we don't provide support via phone calls.
