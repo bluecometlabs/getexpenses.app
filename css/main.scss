@@ -10,6 +10,17 @@ $base-font-weight: 400;
 $small-font-size: $base-font-size * 0.875;
 
 // Color
+$primary-content-color: #5e5ce6ff;
+$code-color: #6c757d;
+$border-color: #54545899;
+
+// Layout
+$base-line-height: 1.5;
+$spacing-unit: 32px;
+$content-width: 860px;
+$on-palm: 600px;
+$on-laptop: 860px;
+
 html {
   --background-color: #ffffff;
   --text-color: #000000;
@@ -25,17 +36,6 @@ html {
     --syntax-background-color: #2c2c2eff;
   }
 }
-
-$primary-content-color: #5e5ce6ff;
-$code-color: #6c757d;
-$border-color: #54545899;
-
-// Others
-$base-line-height: 1.5;
-$spacing-unit: 32px;
-$content-width: 860px;
-$on-palm: 600px;
-$on-laptop: 860px;
 
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
@@ -213,8 +213,8 @@ pre {
 }
 
 /**
-  * Clearfix
-  */
+ * Clearfix
+ */
 %clearfix {
   &:after {
     content: "";
