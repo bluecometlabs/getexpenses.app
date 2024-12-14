@@ -2,18 +2,15 @@
 ---
 
 @charset "utf-8";
-
 // Font
 $base-font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 $base-font-size: 16px;
 $base-font-weight: 400;
 $small-font-size: $base-font-size * 0.875;
-
 // Color
 $primary-content-color: #5e5ce6ff;
 $code-color: #6c757d;
 $border-color: #54545899;
-
 // Layout
 $base-line-height: 1.5;
 $spacing-unit: 32px;
@@ -66,8 +63,8 @@ figure {
 }
 
 /**
-  * Basic styling
-  */
+ * Basic styling
+ */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: var(--text-color);
@@ -81,8 +78,8 @@ body {
 }
 
 /**
-  * Set `margin-top` and `margin-bottom` to maintain vertical rhythm
-  */
+ * Set `margin-top` and `margin-bottom` to maintain vertical rhythm
+ */
 h1,
 h2,
 h3,
@@ -102,16 +99,16 @@ figure,
 }
 
 /**
-  * Images
-  */
+ * Images
+ */
 img {
   max-width: 100%;
   vertical-align: middle;
 }
 
 /**
-  * Figures
-  */
+ * Figures
+ */
 figure > img {
   display: block;
 }
@@ -121,8 +118,8 @@ figcaption {
 }
 
 /**
-  * Lists
-  */
+ * Lists
+ */
 ul,
 ol {
   margin-left: $spacing-unit;
@@ -136,8 +133,8 @@ li {
 }
 
 /**
-  * Links
-  */
+ * Links
+ */
 a {
   color: $primary-content-color;
 
@@ -149,8 +146,8 @@ a {
 }
 
 /**
-  * Blockquotes
-  */
+ * Blockquotes
+ */
 blockquote {
   color: #828282;
   border-left: 2px solid;
@@ -164,8 +161,8 @@ blockquote {
 }
 
 /**
-  * Code formatting
-  */
+ * Code formatting
+ */
 pre,
 code {
   font-family: monospace;
@@ -193,8 +190,8 @@ pre {
 }
 
 /**
-  * Wrapper
-  */
+ * Wrapper
+ */
 .wrapper {
   max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
