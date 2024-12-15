@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Potential data loss on v2.7.0
-permalink: /archive/potential-data-loss
+permalink: /faq/potential-data-loss
 ---
 
 # Potential data loss on v2.7.0

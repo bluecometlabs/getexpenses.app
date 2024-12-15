@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Data migration issues on v3.2.3
-permalink: /archive/data-migration-issues
+permalink: /faq/data-migration-issues
 ---
 
 # Data migration issues on v3.2.3
