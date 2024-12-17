@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 3
     steps:
     - uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.PAT }}
 
     - name: Update eurofxref
       run: ./scripts/update-eurofxref.swift ${{ secrets.WISE_API_KEY }} ${{ secrets.FIXER_API_KEY }}
