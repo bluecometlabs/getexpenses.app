@@ -7,6 +7,6 @@ permalink: /faq/weekly-stats
 # Weekly Stats
 
 Weekly Stats is one of the features in Stats that shows your weekly stats at a glance. It shows your weekly expenses, 
-income, and balance based on the [ISO Week Date Calendar](https://myweb.ecu.edu/mccartyr/aboutwdc.htm). Note that all 52 or 53 weeks of the year receive a number, with days of the week numbered 1 through 7, beginning with Monday.
+income, and balance based on the [ISO week date](https://en.wikipedia.org/wiki/ISO_week_date). Note that all 52 or 53 weeks of the year receive a number, with days of the week numbered 1 through 7, beginning with Monday and ending with Sunday.
 
-You can also see how it works [here](https://myweb.ecu.edu/mccartyr/isowdcal.html) with the current the current ISO Week Date.
+For example, the Gregorian date Thursday, 19 December 2024 corresponds to day number 4 in the week number 51 of 2024, and is written as 2024-W51-4 (in extended form) or 2024W514 (in compact form).
