@@ -48,7 +48,7 @@ image: /assets/expenses.png
     <div class="row">
         <div class="col-sm">
             <h2>Privacy</h2>
-            <p>We care about your privacy seriously. The app requires no registration and no personal data. We don't collect any data.</p>
+            <p>We take your privacy seriously. The app requires no registration and no personal data. We don't collect any data.</p>
         </div>
         <div class="col-sm">
             <h2>Accessibility</h2>
@@ -59,17 +59,17 @@ image: /assets/expenses.png
     <div class="row">
         <div class="col-sm">
             <h2>Stats & Trends</h2>
-            <p>Stats will show you an overview of your spending. Trends will tell you outstanding changes on your spending over time to help you spend better.</p>
+            <p>Stats will show you an overview of your spending. Trends will highlight significant changes in your spending over time to help you manage your expenses better.</p>
         </div>
         <div class="col-sm">
             <h2>All currencies</h2>
-            <p>The app supports all currencies you may need especially when traveling. It also supports customizable currency rates for major currencies.</p>
+            <p>The app supports all currencies you may need, especially when traveling. It also supports customizable currency rates for major currencies.</p>
         </div>
     </div>
     <div class="row justify-content-center">
         <div class="col-sm">
             <h2>And more...</h2>
-            <p>Shortcuts, Widget, iCloud Sharing, Dark Mode, Multiple Windows, and so forth.</p>
+            <p>Shortcuts, Widget, iCloud Sharing, Dark Mode, Multiple Windows, and more.</p>
         </div>
     </div>
 </div>
