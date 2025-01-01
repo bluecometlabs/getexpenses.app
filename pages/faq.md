@@ -37,7 +37,7 @@ permalink: /faq/
         <p><strong>Purchases</strong></p>
         <p>{% include icons/file-text.html %}<a href="/faq/troubleshooting-restoring-purchase">Troubleshooting Restoring Purchase</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/universal-purchase">Universal Purchase</a></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/family-purchases">Family Purchases</a></p>
+        <p>{% include icons/file-text.html %}<a href="/faq/family-sharing">Family Sharing</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/request-refund">Request Refund</a></p>
     </div>
 </div>
