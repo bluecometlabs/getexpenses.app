@@ -1,6 +1,6 @@
 # [getexpenses.app](https://getexpenses.app)
 
-[![jekyll build](https://github.com/bluecometlabs/getexpenses.app/actions/workflows/build.yml/badge.svg)](https://github.com/bluecometlabs/getexpenses.app/actions/workflows/build.yml)
+[![Deploy Jekyll site to Pages](https://github.com/bluecometlabs/getexpenses.app/actions/workflows/jekyll.yml/badge.svg)](https://github.com/bluecometlabs/getexpenses.app/actions/workflows/jekyll.yml)
 
 [Euro foreign exchange reference rates](/eurofxref) are updated every day via [Wise API](https://docs.wise.com/api-docs) and [Fixer.io](https://fixer.io).
 
