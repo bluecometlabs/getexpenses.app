@@ -279,6 +279,7 @@ pre {
   ol {
     margin-left: 0;
   }
+  padding: 1rem;
 }
 
 @include media-query($on-palm) {
