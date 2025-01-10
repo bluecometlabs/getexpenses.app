@@ -224,47 +224,7 @@ pre {
  * Nav header
  */
 .nav-header {
-  // Positioning context for the mobile navigation icon
-  position: relative;
-  background: var(--background-color);
-  padding: 15px;
-}
-
-.navbar-brand {
-  letter-spacing: 4px;
-  margin-bottom: 0;
-  float: left;
-  color: var(--text-color);
-
-  &,
-  &:visited,
-  &:active {
-    color: var(--text-color);
-  }
-
-  &:hover {
-    text-decoration: none;
-  }
-}
-
-.navbar {
-  .nav-link {
-    padding-right: 1rem !important;
-    padding-left: 1rem !important;
-    color: var(--text-color) !important;
-    line-height: $base-line-height;
-
-    &:hover {
-      color: var(-text-color) !important;
-      opacity: 0.5;
-      text-decoration: none;
-    }
-  }
-
-  .navbar-toggler {
-    padding: 0.2rem;
-    font-size: 1rem;
-  }
+  padding: 0.5em;
 }
 
 /**
