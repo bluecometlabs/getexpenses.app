@@ -59,7 +59,6 @@ permalink: /faq/
 <div class="row">
     <div class="col-sm">
         <p><strong>Others</strong></p>
-        <p>{% include icons/file-text.html %}<a href="/faq/join-beta">Join Beta</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/sending-crash-reports">Sending Crash Reports</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/translation-help">Translation Help</a></p>
         <p>{% include icons/file-text.html %}<a href="/faq/redeem-promo-code">Redeem Promo Code</a></p>
