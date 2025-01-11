@@ -11,7 +11,7 @@ If you'd like to help us translate the app into a language that we still don't s
 Here is the overall process.
 
 1. Check all localization files (`Localizable.strings`, `Localizable.stringsdict`, and `metadata`) in English to see if it’s feasible
-  > To edit those files, please use [Xcode.app](https://apps.apple.com/jp/app/xcode/id497799835?mt=12) if possible
+  > To edit those files, please use [Xcode.app](https://apps.apple.com/jp/app/xcode/id497799835?mt=12){:target="_blank"} if possible
 2. Translate the files into a new language
   > You don't need to keep English sentences
 3. Send back the files to me

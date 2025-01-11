@@ -17,7 +17,7 @@ We've found a potential data loss issue only when updating the app to v2.7.0 fro
 
 If you don't any sheets that you had previously, you might be able to restore your data by removing broken new data store. Please follow the steps below:
 
-> If you already purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/)) the app and reinstall it. Then, you can force fetch all data from iCloud.
+> If you already purchased Expenses Pro and your data is synced via iCloud, you can uninstall (make sure you removed all the files using [AppCleaner](https://freemacsoft.net/appcleaner/){:target="_blank"}) the app and reinstall it. Then, you can force fetch all data from iCloud.
 
 1. Update Expenses to Version 2.7.9 or higher versions
 2. Go to the app's settings and see if you can see "Restore" at the top
@@ -32,7 +32,7 @@ Run the following command (if you use Setapp replace `com.pixyzehn.Expenses` wit
 defaults write com.pixyzehn.Expenses showTroubleshootingMigrationIssueEnabled -bool true
 ```
 
-If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [ About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac). We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
+If you don't have any backup, you might be able to restore the data from Time Machine local snapshots on macOS. See also [ About Time Machine local snapshots on Mac](https://support.apple.com/guide/mac-help/about-time-machine-local-snapshots-mh35933/mac){:target="_blank"}. We're sorry for the inconvenience. For more details and what we can do, please contact us via email.
 
 *Updated on October 3, 2022*
 
@@ -40,7 +40,7 @@ If you don't have any backup, you might be able to restore the data from Time Ma
 
 ## Problem
 
-We needed to move our data store to accomplish some new features. On the data migration using [migratePersistentStore(_:to:options:type:)](https://developer.apple.com/documentation/coredata/nspersistentstorecoordinator/3747534-migratepersistentstore), we found something wrong with the migration process especially on macOS.
+We needed to move our data store to accomplish some new features. On the data migration using [migratePersistentStore(_:to:options:type:)](https://developer.apple.com/documentation/coredata/nspersistentstorecoordinator/3747534-migratepersistentstore){:target="_blank"}, we found something wrong with the migration process especially on macOS.
 
 Old Store:
 `~/Library/Containers/com.pixyzehn.Expenses/Data/Library/Application\ Support/Expenses/Expenses.sqlite`  

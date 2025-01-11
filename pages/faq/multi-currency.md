@@ -6,7 +6,7 @@ permalink: /faq/multi-currency
 
 # Multi Currency
 
-The app supports multiple currencies. This means you can add expenses/income in different currencies in **a single sheet**. The currency rates are usually updated every day. The supported currencies are listed in [the XML file](https://github.com/bluecometlabs/getexpenses.app/blob/main/eurofxref/eurofxref.xml).
+The app supports multiple currencies. This means you can add expenses/income in different currencies in **a single sheet**. The currency rates are usually updated every day. The supported currencies are listed in [the XML file](https://github.com/bluecometlabs/getexpenses.app/blob/main/eurofxref/eurofxref.xml){:target="_blank"}.
 
 - [Example](#example)
 - [How the conversion works](#how-the-conversion-works)

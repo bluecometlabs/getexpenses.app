@@ -29,9 +29,9 @@ Any feedback and suggestions are welcome. We will read every tweet and email. We
 Our time zone is UTC+9, where it's currently <strong><span id="currentTime"></span></strong>.
 
 - [contact@bluecometlabs.com](mailto:contact@bluecometlabs.com) for feedback, suggestions, and bug reports
-- [@expensesapp]({{ site.links.twitter }}) on X/Twitter
-- [@expenses]({{ site.links.mastodon }}) on Mastodon
+- [@expensesapp]({{ site.links.twitter }}){:target="_blank"} on X/Twitter
+- [@expenses]({{ site.links.mastodon }}){:target="_blank"} on Mastodon
 
 Please note that we don't provide support via phone calls.
 
-If you're happy with our support or enjoy the app, we'd appreciate your help by rating or writing a review on both the iOS and Mac App Store via [this link]({{ site.links.app_store_review }}). You can do this by opening the link on both iOS and MacOS. Or just share the app with your friends and family. Thank you for your support!
+If you're happy with our support or enjoy the app, we'd appreciate your help by rating or writing a review on both the iOS and Mac App Store via [this link]({{ site.links.app_store_review }}){:target="_blank"}. You can do this by opening the link on both iOS and MacOS. Or just share the app with your friends and family. Thank you for your support!

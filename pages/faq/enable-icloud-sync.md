@@ -6,7 +6,7 @@ permalink: /faq/enable-icloud-sync
 
 # Enable iCloud Sync
 
-We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access your iCloud account on your device for some reason (Technically, we're checking if your iCloud account is available via [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus)). To enable it, please check the following.
+We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app, it means the app can't access your iCloud account on your device for some reason (Technically, we're checking if your iCloud account is available via [CKAccountStatus](https://developer.apple.com/documentation/cloudkit/ckaccountstatus){:target="_blank"}). To enable it, please check the following.
 
 - [iOS/iPadOS](#iosipados)
 - [macOS](#macos)
@@ -46,7 +46,7 @@ We rely on iCloud to sync data. If the iCloud Sync option is disabled in the app
 If it still doesn't work, please check the following just in case.
 
 - Check [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync)
-- [ Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242) and sign in to iCloud again
+- [ Sign out of iCloud on your device](https://support.apple.com/en-us/HT208242){:target="_blank"} and sign in to iCloud again
 - See if there is any error or warning on your iCloud account
 - Check if parental controls, device management, or incomplete setup for two-factor authentication might deny access to iCloud account credentials
 - Restart your device or reinstall the app
