@@ -26,3 +26,5 @@ Note: The repeat will be skipped if there is no day in the month. For example, i
 ## End Repeat
 
 If you'd like to stop the repeat, you can disable the Repeat Forever option and set the End Repeat Date.
+
+{% include faq_footer.html %}
