@@ -286,3 +286,11 @@ b {
   color: var(--text-color);
   margin-right: 6px;
 }
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    background-color: transparent !important;
+    color: inherit !important;
+    text-decoration: none !important;
+    box-shadow: none !important;
+}
