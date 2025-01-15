@@ -4,7 +4,7 @@ title: Getting Started
 permalink: /faq/getting-started
 ---
 
-# Getting Started
+## Getting Started
 
 When you first launch Expenses, the first thing you need to do is add a sheet. Think of it as a spreadsheet (E.g., Google Sheets) with a title. Even though how to manage sheets is up to you, we recommend you add a sheet for **a single purpose**.
 

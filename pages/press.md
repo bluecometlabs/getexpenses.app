@@ -4,7 +4,7 @@ title: Press Kit
 permalink: /press/
 ---
 
-# Press
+## Press
 
 Press Kit includes the following resources:
 

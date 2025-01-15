@@ -10,8 +10,8 @@ image: /assets/expenses.png
       <source srcset="../assets/expenses-dark.png" width="100%" media="(prefers-color-scheme: dark)">
       <img alt="Expenses" src="../assets/expenses-light.png" width="100%">
     </picture>
-    <h1>Expenses</h1>
-    <p>Expenses makes tracking spending effortless with a simple, intuitive interface. Sync across devices and collaborate with iCloud. Available on Mac, iPhone, iPad, and Apple Vision.</p>
+    <h2 class="fw-bold">Spend Better, Live Better</h2>
+    <p>Expenses makes tracking spending effortless with a simple, intuitive interface. Available on Mac, iPhone, iPad, and Apple Vision.</p>
     <a style="text-decoration:none" href="{{ site.links.app_store }}" target="_blank">
         <picture>
             <source srcset="../assets/app-store-badge-dark.svg" media="(prefers-color-scheme: dark)">

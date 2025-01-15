@@ -4,7 +4,7 @@ title: Troubleshooting error when restoring purchase
 permalink: /faq/troubleshooting-restoring-purchase
 ---
 
-# Troubleshooting Restoring Purchase
+## Troubleshooting Restoring Purchase
 
 If restoring purchase didn't work , and you use the same iCloud account, **please try to purchase it again to make the restore work**. You're not charged twice if you use the same iCloud account (In case it happens, you can always request a refund. See [Request a refund](https://getexpenses.app/faq/request-refund){:target="_blank"}).
 

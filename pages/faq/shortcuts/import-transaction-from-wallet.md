@@ -4,7 +4,7 @@ title: Import Transaction from Wallet
 permalink: /faq/import-transaction-from-wallet
 ---
 
-# Import Transaction from Wallet
+## Import Transaction from Wallet
 
 You can import transactions from Transaction Trigger via your Apple Wallet. Please follow the steps below:
 

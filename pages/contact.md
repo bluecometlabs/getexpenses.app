@@ -22,7 +22,7 @@ function updateTime() {
 setInterval(updateTime, 1000);
 </script>
 
-# Contact
+## Contact
 
 Any feedback and suggestions are welcome. We will read every tweet and email. We typically respond within one to two days, depending on the time zone difference. If you have a question, please check the [FAQ](/faq/) before you contact us.
 

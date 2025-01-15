@@ -4,7 +4,7 @@ title: Troubleshooting Sharing Link
 permalink: /faq/troubleshooting-sharing-link
 ---
 
-# Troubleshooting Sharing Link
+## Troubleshooting Sharing Link
 
 If you can't get a sharing link (e.g., nothing happens when trying to generate the link) when you try to share the link with others, please check the following:
 

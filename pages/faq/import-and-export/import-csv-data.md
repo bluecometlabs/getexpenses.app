@@ -4,7 +4,7 @@ title: Import CSV Data
 permalink: /faq/import-csv-data
 ---
 
-# Import CSV Data
+## Import CSV Data
 
 > Note: Import your data from a CSV file is only available on iOS 16.0/macOS 13.0 and later.
 

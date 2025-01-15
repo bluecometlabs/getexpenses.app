@@ -4,7 +4,7 @@ title: Frequently Asked Questions
 permalink: /faq/
 ---
 
-<h1>Frequently Asked Questions</h1>
+<h2>Frequently Asked Questions</h2>
 
 <div class="row">
     <div class="col-sm">

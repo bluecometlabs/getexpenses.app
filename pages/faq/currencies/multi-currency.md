@@ -4,7 +4,7 @@ title: Multi Currency
 permalink: /faq/multi-currency
 ---
 
-# Multi Currency
+## Multi Currency
 
 The app supports multiple currencies. This means you can add expenses/income in different currencies in **a single sheet**. The currency rates are usually updated every day. The supported currencies are listed in [the XML file](https://github.com/bluecometlabs/getexpenses.app/blob/main/eurofxref/eurofxref.xml){:target="_blank"}.
 
@@ -13,7 +13,7 @@ The app supports multiple currencies. This means you can add expenses/income in 
 
 ---
 
-## Example
+### Example
 
 For example, you can add an expense in USD and another expense in EUR.
 
@@ -23,7 +23,7 @@ In the above example, the sheet is in USD. The first expense (`-€12.00`) is in
 
 Note that the last currency you selected will be used in the next expense/income.
 
-## How the conversion works
+### How the conversion works
 
 When adding an expense/income in a different currency, you can choose either `Automatic` or `Manual (Fixed)`. If you choose `Automatic`, the app will automatically convert the amount to the sheet's currency based on the latest currency rates. If you choose `Manual (Fixed)`, the app will convert the amount using the specified currency rate. The default currency rate is the current one (Fixed). You can also set a custom currency rate as default so that you don't have to specify it every time.
 

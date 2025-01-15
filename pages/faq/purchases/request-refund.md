@@ -4,7 +4,7 @@ title: Request Refund
 permalink: /faq/request-refund
 ---
 
-# Request Refund
+## Request Refund
 
 Since we don't have any access to purchases, please follow [ Request a refund for apps or content that you bought](https://support.apple.com/en-us/HT204084){:target="_blank"} from Apple Support.
 

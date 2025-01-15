@@ -4,7 +4,7 @@ title: Translation Help
 permalink: /faq/translation-help
 ---
 
-# Translation Help
+## Translation Help
 
 If you'd like to help us translate the app into a language that we still don't support, we really appreciate your help. In fact, we have supported many languages from our users' efforts. If you're thinking about that, feel free to [contact us](/contact/).
 

@@ -4,7 +4,7 @@ title: Troubleshooting Export
 permalink: /faq/troubleshooting-export
 ---
 
-# Troubleshooting Export
+## Troubleshooting Export
 
 If you get an error when trying to export a sheet, please do the following troubleshooting. For more information, please check [Troubleshooting iCloud Sync](/faq/troubleshooting-icloud-sync).
 
@@ -13,13 +13,13 @@ If you get an error when trying to export a sheet, please do the following troub
 
 ---
 
-## iOS/iPadOS
+### iOS/iPadOS
 
 1. Go to `Settings (Expenses)` → `Sync`
 2. Click `Force fetch all data from iCloud`
 3. Try exporting a sheet again
 
-## macOS
+### macOS
 
 1. Go to `Settings... (Expenses)` → `Sync`
 2. Click `Force fetch all data from iCloud`

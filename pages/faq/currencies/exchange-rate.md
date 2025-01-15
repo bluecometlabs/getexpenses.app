@@ -4,7 +4,7 @@ title: Exchange Rate
 permalink: /faq/exchange-rate
 ---
 
-# Exchange Rate
+## Exchange Rate
 
 There are three ways to set the exchange rate in the app:
 

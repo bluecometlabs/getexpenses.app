@@ -4,7 +4,7 @@ title: Export Sheet as PDF
 permalink: /faq/export-sheet-as-pdf
 ---
 
-# Export Sheet as PDF
+## Export Sheet as PDF
 
 You can export your sheet as a PDF file. To do this, follow these steps on each platform:
 
@@ -13,7 +13,7 @@ You can export your sheet as a PDF file. To do this, follow these steps on each 
 
 ---
 
-## iOS/iPadOS
+### iOS/iPadOS
 
 1. Open the sheet you want to export.
 2. Tap the `Print` button.
@@ -24,7 +24,7 @@ You can export your sheet as a PDF file. To do this, follow these steps on each 
 
     <img src="../../assets/faq/export-sheet-as-pdf/export-sheet-as-pdf-ios-2.jpg" width="40%">
 
-## macOS
+### macOS
 
 1. Open the sheet you want to export.
 2. Tap the `Print` button.

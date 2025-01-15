@@ -4,7 +4,7 @@ title: Sharing Sheet
 permalink: /faq/sharing-sheet
 ---
 
-# Sharing Sheet
+## Sharing Sheet
 
 To share a sheet with others, people you added also need to purchase "Expenses Pro" because our sharing feature uses iCloud Sync. If the people still can't see anything you shared, please check the following on both sides (you and people you added).
 
@@ -14,7 +14,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 ---
 
-## iOS/iPadOS
+### iOS/iPadOS
 
 - Update to the latest version of the app
 - Make sure that you have enough storage space in iCloud on your device
@@ -23,7 +23,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 <img src="../../assets/faq/common/sync-troubleshooting-ios.jpg" width="40%">
 
-## macOS
+### macOS
 
 - Update to the latest version of the app
 - Make sure that You have enough storage space in iCloud
@@ -32,7 +32,7 @@ To share a sheet with others, people you added also need to purchase "Expenses P
 
 <img src="../../assets/faq/common/sync-troubleshooting-mac.jpg" width="40%">
 
-## Troubleshooting
+### Troubleshooting
 
 Sharing a sheet with others uses iCloud Sharing just like sharing a note in Notes.app. If you have any trouble with iCloud Sharing, please check the following:
 

@@ -4,7 +4,7 @@ title: Sending Crash Reports
 permalink: /faq/sending-crash-reports
 ---
 
-# Sending Crash Reports
+## Sending Crash Reports
 
 If we can't find any crash reports, the best way would be to send us crash reports to identify the issue.
 
@@ -13,7 +13,7 @@ If we can't find any crash reports, the best way would be to send us crash repor
 
 ---
 
-## iOS/iPadOS
+### iOS/iPadOS
 
 1. Open the Analytics & Improvements section (in Settings > Privacy & Security) on the device. See [ Share analytics, diagnostics, and usage information with Apple](https://support.apple.com/en-us/HT202100){:target="_blank"}
 2. Tap Analytics Data
@@ -21,7 +21,7 @@ If we can't find any crash reports, the best way would be to send us crash repor
 4. Select the desired log
 5. Tap the Share icon, and select Mail to send the crash report as a mail attachment to [contact@bluecometlabs.com](mailto:contact@bluecometlabs.com)
 
-## macOS
+### macOS
 
 1. Open the Console app, from Applications > Utilities in Finder
 2. Select Crash Reports

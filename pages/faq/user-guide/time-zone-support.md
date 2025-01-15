@@ -4,7 +4,7 @@ title: Time Zone Support
 permalink: /faq/time-zone-support
 ---
 
-# Time Zone Support
+## Time Zone Support
 
 The app keeps track of the time zone of the device for each expense. The app will use the time zone to display the date and time of the expense. The app will also use the time zone to calculate the total expenses for each day.
 
