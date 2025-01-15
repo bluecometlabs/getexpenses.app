@@ -25,14 +25,6 @@ image: /assets/expenses.png
         </picture>
     </a>
     <p>
-        <a href="https://www.producthunt.com/posts/expenses-spending-tracker?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-expenses-spending-tracker" target="_blank">
-            <picture>
-                <source srcset="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=202478&theme=dark" alt="Expenses: Spending Tracker - Keep track of your spending effortlessly. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" media="(prefers-color-scheme: dark)">
-                <img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=202478&theme=light" alt="Expenses: Spending Tracker - Keep track of your spending effortlessly. | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54">
-            </picture>
-        </a>
-    </p>
-    <p>
         <setapp-custom-banner
             iconUrl="https://store.setapp.com/app/521/7726/icon-1679217546-6416d38ac6eaa.png"
             appName="Expenses"
