@@ -20,6 +20,7 @@ $on-laptop: 860px;
 
 html {
   --background-color: #ffffff;
+  --secondary-background-color: #f8f9fa;
   --text-color: #000000;
   --secondary-text-color: #3c3c4399;
   --syntax-background-color: #f2f2f2;
@@ -28,6 +29,7 @@ html {
 @media (prefers-color-scheme: dark) {
   html {
     --background-color: #2c2a28;
+    --secondary-background-color: #343a40;
     --text-color: #dddddd;
     --secondary-text-color: #ebebf599;
     --syntax-background-color: #2c2c2eff;
@@ -293,4 +295,28 @@ b {
   color: inherit !important;
   text-decoration: none !important;
   box-shadow: none !important;
+}
+
+.feature-box {
+  padding: 20px;
+  border: 1px solid $border-color;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: var(--secondary-background-color);
+}
+
+.feature-box i {
+  color: $primary-content-color;
+  font-size: 1.5rem;
+}
+
+.feature-box h3 {
+  margin-top: 15px;
+  font-size: 1.5rem;
+}
+
+.feature-box p {
+  font-size: 1rem;
+  color: var(--secondary-text-color);
 }

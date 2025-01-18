@@ -34,32 +34,51 @@ image: /assets/expenses.png
     </p>
 </div>
 
-<div class="text-center">
-    <div class="row">
-        <div class="col-sm">
-            <h2>Privacy</h2>
-            <p>We take your privacy seriously. The app requires no registration and no personal data. We don't collect any data.</p>
+<div class="container mt-5">
+    <div class="row text-center">
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-plus-circle-fill fa-3x mb-3"></i>
+                <h3>Quick Input</h3>
+                <p>Quickly add your expenses with just a few taps, making it easy to track your spending on the go.</p>
+            </div>
         </div>
-        <div class="col-sm">
-            <h2>Accessibility</h2>
-            <p>The app is designed to be accessible to everyone, including those with special needs by providing built-in
-                accessibility features.</p>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-shield-lock-fill fa-3x mb-3"></i>
+                <h3>Privacy</h3>
+                <p>Your privacy is our priority. This app requires no registration and collects no personal data.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-universal-access fa-3x mb-3"></i>
+                <h3>Accessibility</h3>
+                <p>Built for everyone, offering built-in accessibility features for users with special needs.</p>
+            </div>
         </div>
     </div>
-    <div class="row">
-        <div class="col-sm">
-            <h2>Stats & Trends</h2>
-            <p>Stats will show you an overview of your spending. Trends will highlight significant changes in your spending over time to help you manage your expenses better.</p>
+    <div class="row text-center mt-4">
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-graph-up fa-3x mb-3"></i>
+                <h3>Stats & Trends</h3>
+                <p>Provide an overview of your spending and highlight changes to help you manage expenses.</p>
+            </div>
         </div>
-        <div class="col-sm">
-            <h2>All currencies</h2>
-            <p>The app supports all currencies you may need, especially when traveling. It also supports customizable currency rates for major currencies.</p>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-currency-exchange fa-3x mb-3"></i>
+                <h3>Currencies</h3>
+                <p>Support all major currencies with customizable currency rates for international transactions.</p>
+            </div>
         </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-sm">
-            <h2>And more...</h2>
-            <p>Shortcuts, Widget, iCloud Sharing, Dark Mode, Multiple Windows, and more.</p>
+        <div class="col-md-4">
+            <div class="feature-box">
+                <i class="bi bi-apple fa-3x mb-3"></i>
+                <h3>Integrations</h3>
+                <p>Integrate with the Apple ecosystem, including Widgets and Siri Shortcuts for a seamless experience.</p>
+            </div>
         </div>
     </div>
 </div>
