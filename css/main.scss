@@ -205,7 +205,10 @@ pre {
 
 .navbar-brand {
   color: var(--text-color) !important;
-  margin-right: 6px;
+}
+
+.navbar-brand, h1 {
+  margin-left: 4px;
 }
 
 .navbar-brand:hover,
@@ -236,7 +239,6 @@ pre {
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
-
 
 // Horizontal rule
 hr {
