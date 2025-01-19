@@ -24,14 +24,6 @@ image: /assets/expenses.png
             <img src="../assets/mac-app-store-badge.svg">
         </picture>
     </a>
-    <p>
-        <setapp-custom-banner
-            iconUrl="https://store.setapp.com/app/521/7726/icon-1679217546-6416d38ac6eaa.png"
-            appName="Expenses"
-            appId="521"
-            vendorId="345">
-        </setapp-custom-banner>
-    </p>
 </div>
 
 <div class="container mt-5">
