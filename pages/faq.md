@@ -44,6 +44,7 @@ permalink: /faq/
         <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-restoring-purchase">Troubleshooting Restoring Purchase</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/universal-purchase">Universal Purchase</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/family-sharing">Family Sharing</a></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/upgrade-from-subscription-to-lifetime">Upgrade from Subscription to Lifetime</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/request-refund">Request Refund</a></p>
     </div>
     <div class="col-sm">
