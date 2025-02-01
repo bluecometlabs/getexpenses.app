@@ -271,3 +271,11 @@ hr {
   font-size: 1rem;
   color: var(--secondary-text-color);
 }
+
+// Table
+
+.table-appearance {
+  --bs-table-bg: var(--background-color);
+  --bs-table-color: var(--text-color);
+  --bs-table-accent-bg: transparent;
+}

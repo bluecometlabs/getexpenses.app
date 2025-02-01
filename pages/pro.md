@@ -1,13 +1,20 @@
 ---
 layout: default
 title: Pro Features
-permalink: /faq/pro-features
+permalink: /pro
 ---
 
 ## Pro Features
 
+Pro is the optional paid version of Expenses enhancing your user experience by enabling additional features. The following table lists the features available in the Free and Pro versions of Expenses.
+
+- [Pricing](#pricing)
+- [Upgrade to Pro](#upgrade-to-pro)
+
+---
+
 <div class="table-responsive">
-    <table class="table table-striped table-bordered" data-bs-theme="dark">
+    <table class="table table-bordered table-appearance">
         <thead>
             <tr>
                 <th scope="col"><i class="bi bi-table" style="color: slategray;"></i></th>
@@ -114,5 +121,32 @@ permalink: /faq/pro-features
         </tbody>
     </table>
 </div>
+
+### Pricing
+
+Pricing depends on your region, your currency and the purchasing power of your region. The prices below are listed in USD for the US market. You can also find your local pricing in the App Store.
+
+<div class="table-responsive">
+    <table class="table table-bordered table-appearance">
+        <tbody>
+            <tr>
+                <td>Monthly</td>
+                <td>$1.99</td>
+            </tr> 
+                        <tr>
+                <td>Yearly</td>
+                <td>$9.99</td>
+            </tr> 
+            <tr>
+                <td>Lifetime</td>
+                <td>$19.99</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+### Upgrade to Pro
+
+To upgrade to Pro, tap the `Expenses Pro` button at the top of the Settings screen. You can then select your preferred subscription or lifetime plan and tap `Upgrade to Pro` to proceed with payment via the App Store.
 
 {% include faq_footer.html %}
