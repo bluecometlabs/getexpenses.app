@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pro Features
-permalink: /pro
+permalink: /pro/
 ---
 
 ## Pro Features
