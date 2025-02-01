@@ -63,6 +63,7 @@ permalink: /faq/
     </div>
     <div class="col-sm">
         <p><strong>Others</strong></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/pro-features">Pro Features</a></p> 
         <p><i class="bi-file-text me-1"></i><a href="/faq/sending-crash-reports">Sending Crash Reports</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/translation-help">Translation Help</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/redeem-promo-code">Redeem Promo Code</a></p>
