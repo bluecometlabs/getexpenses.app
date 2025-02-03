@@ -277,4 +277,5 @@ hr {
   --bs-table-bg: var(--background-color);
   --bs-table-color: var(--text-color);
   --bs-table-accent-bg: transparent;
+  border: 1px solid $border-color;
 }
