@@ -6,12 +6,10 @@ timezone: Asia/Tokyo
 
 links:
   app_store: https://apple.co/3rUeBBK
-  app_store_review: https://apps.apple.com/app/id1492055171/?action=write-review
   setapp: https://setapp.com/apps/expenses?utm_medium=vendor_program&utm_source=Blue+Comet+Labs+LLC&utm_content=link
   twitter: https://twitter.com/expensesapp
   mastodon: https://mastodon.social/@expenses
   company: https://bluecometlabs.com
-  jekyll: https://jekyllrb.com
 
 sass:
   style: compressed
