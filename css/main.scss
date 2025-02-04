@@ -225,6 +225,10 @@ pre {
   background: var(--background-color);
   a {
     color: var(--secondary-text-color) !important;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline; // or any other style you prefer
+    }
   }
   ul,
   ol {
