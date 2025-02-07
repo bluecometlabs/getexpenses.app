@@ -124,7 +124,7 @@ Pro is the optional paid version of Expenses enhancing your user experience by e
 
 ### Pricing
 
-Pricing depends on your region, your currency and the purchasing power of your region. The prices below are listed in USD for the US market. You can also find your local pricing in the App Store.
+Pricing depends on your region, your currency and the purchasing power of your region. The prices below are listed in USD for the US market. You can also find your local pricing in the App Store. Note that all options support [Family Sharing](/faq/family-sharing).
 
 <div class="table-responsive">
     <table class="table table-bordered table-appearance">
