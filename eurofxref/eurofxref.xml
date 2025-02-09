@@ -4,7 +4,7 @@
 <gesmes:name>Expenses</gesmes:name>
 </gesmes:Sender>
 <Cube>
-<Cube time="2025-02-08">
+<Cube time="2025-02-09">
 <Cube currency="AED" rate="3.79319"/>
 <Cube currency="AFN" rate="76.4896"/>
 <Cube currency="ALL" rate="98.81"/>
