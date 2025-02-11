@@ -30,6 +30,6 @@ Notes for macOS users:
         </tr>
     </table>
 
-It might be a temporary issue on iCloud. Please try again later (Usually, it takes a few hours to be able to generate the link). Also, note that the link will expire after 30 days.
+It might be a temporary issue on iCloud. Please try again later on. Also, note that the link will expire after 30 days.
 
 {% include faq_footer.html %}
