@@ -8,7 +8,7 @@ permalink: /faq/troubleshooting-sharing-link
 
 If you can't get a sharing link (e.g., nothing happens when trying to generate the link) when you try to share the link with others, please check the following:
 
-- Make sure you turn on iCloud Drive (See also [Enable iCloud Sync](/faq/enable-icloud-sync))
+- Turn on iCloud Drive (See also [Enable iCloud Sync](/faq/enable-icloud-sync))
 - Make sure everyone has enough iCloud storage ([ Manage your iCloud storage](https://support.apple.com/en-us/108922){:target="_blank"})
 - Make sure the email you're trying to invite is the email of their iCloud account
 - Make sure you both already purchased "Expenses Pro"
