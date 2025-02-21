@@ -29,6 +29,11 @@ Pro is the optional paid version of Expenses enhancing your user experience by e
                 <td><i class="bi bi-check-circle-fill" style="color: mediumseagreen;"></i></td>
             </tr>
             <tr>
+                <td>Customizable total balance</td>
+                <td><i class="bi bi-check-circle-fill" style="color: mediumseagreen;"></i></td>
+                <td><i class="bi bi-check-circle-fill" style="color: mediumseagreen;"></i></td>
+            </tr>
+            <tr>
                 <td>Transfer money between sheets</td>
                 <td><i class="bi bi-check-circle-fill" style="color: mediumseagreen;"></i></td>
                 <td><i class="bi bi-check-circle-fill" style="color: mediumseagreen;"></i></td>
