@@ -24,7 +24,7 @@ You can import transactions from Transaction Trigger via your Apple Wallet. Plea
 
     <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-amount.jpg" width="80%">
 
-8. Edit other parameters if needed (E.g., add "Marchant" from the "Shortcut Input" section to the Notes field)
+8. Edit other parameters if needed (E.g., add "Merchant" from the "Shortcut Input" section to the Notes field)
 
     <img src="../../assets/faq/import-transaction-from-wallet/shortcut-input-params.jpg" width="80%">
 
