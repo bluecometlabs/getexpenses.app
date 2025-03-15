@@ -24,6 +24,7 @@ let supportedCurrencies = try {
 }()
 
 // Wise API
+// Documentation: https://docs.wise.com/api-docs/api-reference/rate
 do {
     let url = "https://api.wise.com/v1/rates?source=\(base)"
     let apiKey = CommandLine.arguments[1]
@@ -52,6 +53,7 @@ do {
 }
 
 // Fixer API (maintain the backward compatibility)
+// Documentation: https://apilayer.com/marketplace/exchangerates_data-api
 struct FixerReferenceRates: Decodable {
     var base: String
     var date: String
