@@ -4,7 +4,7 @@
 <gesmes:name>Expenses</gesmes:name>
 </gesmes:Sender>
 <Cube>
-<Cube time="2025-03-14">
+<Cube time="2025-03-15">
 <Cube currency="AED" rate="3.99516"/>
 <Cube currency="AFN" rate="76.5285"/>
 <Cube currency="ALL" rate="99.54"/>
@@ -29,12 +29,12 @@
 <Cube currency="BTN" rate="94.5784"/>
 <Cube currency="BWP" rate="14.8404"/>
 <Cube currency="BYN" rate="3.55747"/>
-<Cube currency="BYR" rate="21401.956972"/>
+<Cube currency="BYR" rate="21407.887117"/>
 <Cube currency="BZD" rate="2.1756"/>
 <Cube currency="CAD" rate="1.56301"/>
 <Cube currency="CDF" rate="3115.44"/>
 <Cube currency="CHF" rate="0.96278"/>
-<Cube currency="CLF" rate="0.026471"/>
+<Cube currency="CLF" rate="0.026459"/>
 <Cube currency="CLP" rate="1011.11"/>
 <Cube currency="CNY" rate="7.87284"/>
 <Cube currency="COP" rate="4459.5"/>
@@ -88,8 +88,8 @@
 <Cube currency="LKR" rate="322.272"/>
 <Cube currency="LRD" rate="216.471"/>
 <Cube currency="LSL" rate="19.7822"/>
-<Cube currency="LTL" rate="3.224205"/>
-<Cube currency="LVL" rate="0.660502"/>
+<Cube currency="LTL" rate="3.225099"/>
+<Cube currency="LVL" rate="0.660685"/>
 <Cube currency="LYD" rate="5.23884"/>
 <Cube currency="MAD" rate="10.5415"/>
 <Cube currency="MDL" rate="19.3683"/>
@@ -135,7 +135,7 @@
 <Cube currency="SLL" rate="24770.1"/>
 <Cube currency="SOS" rate="621.95"/>
 <Cube currency="SRD" rate="39.3033"/>
-<Cube currency="STD" rate="22600.882599"/>
+<Cube currency="STD" rate="22607.144948"/>
 <Cube currency="STN" rate="24.7206"/>
 <Cube currency="SVC" rate="9.51825"/>
 <Cube currency="SYP" rate="14143.5"/>
@@ -160,15 +160,15 @@
 <Cube currency="VUV" rate="134.147"/>
 <Cube currency="WST" rate="3.05605"/>
 <Cube currency="XAF" rate="655.959"/>
-<Cube currency="XAG" rate="0.032321"/>
-<Cube currency="XAU" rate="0.000365"/>
+<Cube currency="XAG" rate="0.03233"/>
+<Cube currency="XAU" rate="0.000366"/>
 <Cube currency="XCD" rate="2.93706"/>
-<Cube currency="XDR" rate="0.821678"/>
+<Cube currency="XDR" rate="0.815792"/>
 <Cube currency="XOF" rate="655.959"/>
 <Cube currency="XPF" rate="119.264"/>
 <Cube currency="YER" rate="268.105"/>
 <Cube currency="ZAR" rate="19.7815"/>
-<Cube currency="ZMK" rate="9828.743462"/>
+<Cube currency="ZMK" rate="9831.466852"/>
 <Cube currency="ZMW" rate="31.1527"/>
 <Cube currency="ZWL" rate="14.9369"/>
 </Cube>
