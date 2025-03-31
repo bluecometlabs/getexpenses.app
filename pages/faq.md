@@ -21,14 +21,16 @@ permalink: /faq/
         <p><i class="bi-file-text me-1"></i><a href="/faq/enable-icloud-sync">Enable iCloud Sync</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-icloud-sync">Troubleshooting iCloud Sync</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-fetching-changes">Troubleshooting Fetching Changes</a></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/sharing-sheet">Sharing Sheet</a></p>
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm">
-        <p><strong>Sharing</strong></p>
-        <p><i class="bi-file-text me-1"></i><a href="/faq/sharing-sheet">Sharing Sheet</a></p>
-        <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-sharing-link">Troubleshooting Sharing Link</a></p>
+        <p><strong>Import & Export</strong></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/import-csv-data">Import CSV Data</a></p> 
+        <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-export">Troubleshooting Export</a></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/export-sheet-as-pdf">Export Sheet as PDF</a></p> 
     </div>
     <div class="col-sm">
         <p><strong>Currencies</strong></p>
@@ -54,12 +56,6 @@ permalink: /faq/
 </div>
 
 <div class="row">
-    <div class="col-sm">
-        <p><strong>Import & Export</strong></p>
-        <p><i class="bi-file-text me-1"></i><a href="/faq/import-csv-data">Import CSV Data</a></p> 
-        <p><i class="bi-file-text me-1"></i><a href="/faq/troubleshooting-export">Troubleshooting Export</a></p>
-        <p><i class="bi-file-text me-1"></i><a href="/faq/export-sheet-as-pdf">Export Sheet as PDF</a></p> 
-    </div>
     <div class="col-sm">
         <p><strong>Others</strong></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/sending-crash-reports">Sending Crash Reports</a></p>
