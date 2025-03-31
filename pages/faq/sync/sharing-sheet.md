@@ -8,28 +8,46 @@ permalink: /faq/sharing-sheet
 
 To share a sheet with others, people you added also need to purchase "Expenses Pro" because our sharing feature relies on iCloud Sync.
 
-### Troubleshooting Sharing Link
+---
 
-If you can't get a sharing link (e.g., nothing happens when trying to generate the link) when you try to share the link with others, please check the following:
+If you're having trouble with iCloud sharing in the Expenses app, please follow these steps to ensure everything is set up correctly:
 
-- Use Messages app from Apple so that opening the link will take you to the Expenses app automatically.
-- Turn on iCloud Drive (See also [Enable iCloud Sync](/faq/enable-icloud-sync)).
-- Make sure everyone has enough iCloud storage ([ Manage your iCloud storage](https://support.apple.com/en-us/108922){:target="_blank"})
-- Make sure the email you're trying to invite is the email of their iCloud account.
-- Make sure you both already purchased "Expenses Pro".
-- Update to the latest version of Expenses.
-- Update the latest version of iOS/iPadOS/macOS ([ Update your iPhone or iPad](https://support.apple.com/en-us/118575){:target="_blank"} / [ Update macOS on Mac](https://support.apple.com/en-us/108382){:target="_blank"}).
-- Check [ iCloud server reliability](https://www.apple.com/support/systemstatus/).
-- [ Restart your devices](https://support.apple.com/en-us/101603) to restart the iCloud service.
-- Log out of your iCloud account and log back in.
-- Turn off iCloud Private Relay.
-- Go to your device `Settings > General > Background App Refresh` and disable it temporarily for "Expenses" on the list.
-- Exempt Expenses from content-blocking or network-security apps, e.g. AdGuard, Eero Secure, Netskope, if you or your company happens to be using them.
-- Check if Expenses is the only app with syncing issues. If multiple apps have this issue, please contact Apple Support.
+Before Inviting Others:
 
-Notes for macOS users:
+- Use the **Messages app** (Apple) to send the invitation link — this ensures the link opens directly in the Expenses app.
+- **Turn on iCloud Drive**  
+  → See: [Enable iCloud Sync](/faq/enable-icloud-sync)
+- Ensure all participants have **sufficient iCloud storage**  
+  → [ Manage your iCloud storage](https://support.apple.com/en-us/108922){:target="_blank"}
+- Confirm the email you're inviting is **linked to the recipient's iCloud account**.
+- Make sure **both you and the invitee have purchased Expenses Pro**.
+- Update to the **latest version of Expenses**.
+- Update your device to the **latest version of iOS, iPadOS, or macOS**:  
+  → [ Update iPhone or iPad](https://support.apple.com/en-us/118575){:target="_blank"} / [ Update macOS](https://support.apple.com/en-us/108382){:target="_blank"}
 
-> - On macOS 14.5 or later, there is a known issue that the link is not shown properly when using Messages app. Please use other options (e.g., Mail app) instead or do so on iOS/iPadOS
-> - On macOS 14.5 or later, there is a known issue that tapping Invite with Link crashes the app. Please use other options (e.g., Mail app) instead or do so from iOS/iPadOS
+Troubleshooting Sync Issues:
+
+- Check current **iCloud server status**:  
+  → [ System Status](https://www.apple.com/support/systemstatus/)
+- **Restart your devices** to refresh the iCloud service:  
+  → [ Restart instructions](https://support.apple.com/en-us/101603)
+- Try **logging out of iCloud**, then log back in.
+- Temporarily **turn off iCloud Private Relay**.
+- Go to `Settings > General > Background App Refresh` and **temporarily disable** it for "Expenses".
+- If you or your organization uses content blockers or network security tools (e.g., **AdGuard**, **Eero Secure**, **Netskope**), ensure Expenses is **exempted**.
+
+Still Not Syncing?:
+
+- Check if the syncing issue occurs with **other apps** as well.
+- If multiple apps are affected, it's likely a broader iCloud issue — please contact **Apple Support**.
+
+---
+
+Notes for macOS Users:
+
+> ⚠️ On **macOS 14.5 or later**, there are known issues:  
+> 
+> - **iCloud invite links may not appear correctly** when using the Messages app. Try using Mail or another app instead — or send from an iOS/iPadOS device.  
+> - **Tapping “Invite with Link” may crash the app.** Please use another method (like Mail), or initiate the invite from an iOS/iPadOS device.
 
 {% include faq_footer.html %}
