@@ -108,6 +108,7 @@ if !missingCurrencies.isEmpty {
 
 // Check if all currency codes are valid
 let isoCurrencies = Locale.Currency.isoCurrencies.map(\.identifier)
+print("iSO: \(isoCurrencies.count) currency codes")
 let invalidCurrencies = sortedReferenceRates.filter { !isoCurrencies.contains($0.target) }
 if !invalidCurrencies.isEmpty {
     print("Error: \(invalidCurrencies.map(\.target)) are not valid currency codes.")
