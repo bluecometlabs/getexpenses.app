@@ -15,6 +15,7 @@ permalink: /faq/
         <p><i class="bi-file-text me-1"></i><a href="/faq/transfer-money">Transfer Money</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/pending">Pending</a></p>
         <p><i class="bi-file-text me-1"></i><a href="/faq/time-zone-support">Time Zone Support</a></p>
+        <p><i class="bi-file-text me-1"></i><a href="/faq/sensitive-mode">Sensitive Mode</a></p>
     </div>
     <div class="col-sm">
         <p><strong>Sync</strong></p>
